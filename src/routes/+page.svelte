@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Blog from '$lib/components/Blog.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <div
@@ -39,3 +40,5 @@
 <Blog />
 
 <Newsletter />
+
+<Footer />
