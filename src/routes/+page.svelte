@@ -1,2 +1,38 @@
-<h1 class="p-4 px-4 py-9 text-purple-300">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Blog from '$lib/components/Blog.svelte';
+</script>
+
+<div
+	class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
+>
+	<div
+		class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+		aria-hidden="true"
+	>
+		<div
+			class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+			style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"
+		></div>
+	</div>
+	<div
+		class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+		aria-hidden="true"
+	>
+		<div
+			class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+			style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"
+		></div>
+	</div>
+	<p class="text-center text-lg leading-6 text-gray-900">
+		This website is currently a WIP, undergoing updates started on 9/12/2023. Check back soon!
+	</p>
+	<div class="flex flex-1 justify-end"></div>
+</div>
+
+<h1 class="mt-10 text-center text-2xl">Hi, I'm</h1>
+<h1 class="text-center text-9xl">Paul Young</h1>
+<h2 class="mt-5 text-center text-lg">
+	I'm currently exploring how I can create efficiencies for internal auditors.
+</h2>
+
+<Blog />
