@@ -8,115 +8,109 @@
 		<div
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			<article class="flex flex-col items-start justify-between">
-				<div class="relative w-full">
-					<img
-						src="https://source.unsplash.com/featured/?business"
-						alt=""
-						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-					/>
-					<div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-				</div>
-				<div class="max-w-xl">
-					<div class="mt-8 flex items-center gap-x-4 text-xs">
-						<time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-						<a
-							href="#"
-							class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-							>Marketing</a
-						>
+			<a href="#">
+				<article
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+				>
+					<div class="relative w-full">
+						<img
+							src="https://source.unsplash.com/featured/?business"
+							alt=""
+							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+						/>
 					</div>
-					<div class="group relative">
-						<h3
-							class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
-						>
-							<a href="#">
-								<span class="absolute inset-0"></span>
-								Project #3
-							</a>
-						</h3>
-						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-							Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-							aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-							deserunt vel. Iusto corrupti dicta.
-						</p>
+					<div class="max-w-xl px-4">
+						<div class="flex items-center gap-x-4 text-xs">
+							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
+							<div
+								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
+							>
+								Marketing
+							</div>
+						</div>
+						<div class="group relative">
+							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #3</h3>
+							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
+								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
+								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
+								deserunt vel. Iusto corrupti dicta.
+							</p>
+						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</a>
 
-			<article class="flex flex-col items-start justify-between">
-				<div class="relative w-full">
-					<img
-						src="https://source.unsplash.com/featured/?nature"
-						alt=""
-						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-					/>
-					<div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-				</div>
-				<div class="max-w-xl">
-					<div class="mt-8 flex items-center gap-x-4 text-xs">
-						<time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-						<a
-							href="#"
-							class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-							>Marketing</a
-						>
+			<a href="#">
+				<article
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+				>
+					<div class="relative w-full">
+						<img
+							src="https://source.unsplash.com/featured/?nature"
+							alt=""
+							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+						/>
 					</div>
-					<div class="group relative">
-						<h3
-							class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
-						>
-							<a href="#">
-								<span class="absolute inset-0"></span>
-								Project #2
-							</a>
-						</h3>
-						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-							Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-							aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-							deserunt vel. Iusto corrupti dicta.
-						</p>
+					<div class="max-w-xl px-4">
+						<div class="flex items-center gap-x-4 text-xs">
+							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
+							<div
+								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
+							>
+								Marketing
+							</div>
+						</div>
+						<div class="group relative">
+							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #3</h3>
+							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
+								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
+								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
+								deserunt vel. Iusto corrupti dicta.
+							</p>
+						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</a>
 
-			<article class="flex flex-col items-start justify-between">
-				<div class="relative w-full">
-					<img
-						src="https://source.unsplash.com/featured/?monochromatic"
-						alt=""
-						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-					/>
-					<div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-				</div>
-				<div class="max-w-xl">
-					<div class="mt-8 flex items-center gap-x-4 text-xs">
-						<time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
-						<a
-							href="#"
-							class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-							>Marketing</a
-						>
+			<a href="#">
+				<article
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+				>
+					<div class="relative w-full">
+						<img
+							src="https://source.unsplash.com/featured/?monochromatic"
+							alt=""
+							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+						/>
 					</div>
-					<div class="group relative">
-						<h3
-							class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
-						>
-							<a href="#">
-								<span class="absolute inset-0"></span>
-								Project #1
-							</a>
-						</h3>
-						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-							Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-							aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-							deserunt vel. Iusto corrupti dicta.
-						</p>
+					<div class="max-w-xl px-4">
+						<div class="flex items-center gap-x-4 text-xs">
+							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
+							<div
+								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
+							>
+								Marketing
+							</div>
+						</div>
+						<div class="group relative">
+							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #3</h3>
+							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
+								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
+								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
+								deserunt vel. Iusto corrupti dicta.
+							</p>
+						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</a>
 
 			<!-- More posts... -->
 		</div>
 	</div>
 </div>
+
+<style lang="postcss">
+	.scale-102:hover {
+		transform: scale(1.02);
+	}
+</style>

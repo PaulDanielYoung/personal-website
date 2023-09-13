@@ -9,6 +9,7 @@
 			>
 				<span class="sr-only">LinkedIn</span>
 				<svg
+					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
 					class="icon icon-tabler icon-tabler-brand-linkedin"
 					width="36"
@@ -37,6 +38,7 @@
 			>
 				<span class="sr-only">Github</span>
 				<svg
+					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
 					class="icon icon-tabler icon-tabler-brand-github"
 					width="36"
@@ -62,6 +64,7 @@
 			>
 				<span class="sr-only">Email</span>
 				<svg
+					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
 					class="icon icon-tabler icon-tabler-at"
 					width="36"
@@ -86,3 +89,13 @@
 		</div>
 	</div>
 </footer>
+
+<style lang="postcss">
+	#footersvg {
+		transition: transform 0.3s ease;
+	}
+
+	#footersvg:hover {
+		transform: scale(1.15);
+	}
+</style>
