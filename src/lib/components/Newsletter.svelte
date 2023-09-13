@@ -1,8 +1,8 @@
-<div class="bg-white py-12">
+<div class="flex bg-slate-300 py-12">
 	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
 		<div class="max-w-xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
-			<h2 class="inline sm:block lg:inline xl:block">Want updates?</h2>
-			<p class="inline sm:block lg:inline xl:block">Sign up for my newsletter.</p>
+			<h2 class="block lg:inline xl:block">Want updates?</h2>
+			<p class="block lg:inline xl:block">Sign up for my newsletter.</p>
 		</div>
 		<form class="w-full max-w-md lg:col-span-5 lg:pt-2">
 			<div class="flex gap-x-4">
@@ -22,6 +22,9 @@
 					>Subscribe</button
 				>
 			</div>
+			<p class="mt-4 text-sm leading-6 text-gray-900">
+				You will be notified when a new post or project is added.
+			</p>
 		</form>
 	</div>
 </div>

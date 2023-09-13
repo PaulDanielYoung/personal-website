@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Blog from '$lib/components/Blog.svelte';
+	import Projects from '$lib/components/Projects.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
@@ -38,6 +39,8 @@
 </h2>
 
 <Blog />
+
+<Projects />
 
 <Newsletter />
 

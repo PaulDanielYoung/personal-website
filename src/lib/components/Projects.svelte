@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-				What I'm thinking about...
+				What I'm working on...
 			</h2>
 		</div>
 		<div
@@ -11,7 +11,7 @@
 			<article class="flex flex-col items-start justify-between">
 				<div class="relative w-full">
 					<img
-						src="https://source.unsplash.com/featured/?film"
+						src="https://source.unsplash.com/featured/?business"
 						alt=""
 						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 					/>
@@ -32,7 +32,7 @@
 						>
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Post #3
+								Project #3
 							</a>
 						</h3>
 						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
@@ -47,7 +47,7 @@
 			<article class="flex flex-col items-start justify-between">
 				<div class="relative w-full">
 					<img
-						src="https://source.unsplash.com/featured/?technology"
+						src="https://source.unsplash.com/featured/?nature"
 						alt=""
 						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 					/>
@@ -68,7 +68,7 @@
 						>
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Post #2
+								Project #2
 							</a>
 						</h3>
 						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
@@ -83,7 +83,7 @@
 			<article class="flex flex-col items-start justify-between">
 				<div class="relative w-full">
 					<img
-						src="https://source.unsplash.com/featured/?animals"
+						src="https://source.unsplash.com/featured/?monochromatic"
 						alt=""
 						class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 					/>
@@ -104,7 +104,7 @@
 						>
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Post #1
+								Project #1
 							</a>
 						</h3>
 						<p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
