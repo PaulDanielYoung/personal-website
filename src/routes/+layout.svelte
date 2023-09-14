@@ -2,7 +2,7 @@
 	import '../app.postcss';
 </script>
 
-<div class="patterned-background min-h-screen">
+<div class="patterned-background min-h-screen min-w-full">
 	<slot />
 </div>
 

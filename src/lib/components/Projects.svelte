@@ -61,7 +61,7 @@
 							</div>
 						</div>
 						<div class="group relative">
-							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #3</h3>
+							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #2</h3>
 							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
 								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
 								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
@@ -93,7 +93,7 @@
 							</div>
 						</div>
 						<div class="group relative">
-							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #3</h3>
+							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Project #1</h3>
 							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
 								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
 								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
