@@ -6,11 +6,11 @@
 			</h2>
 		</div>
 		<div
-			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
@@ -42,7 +42,7 @@
 
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
@@ -74,7 +74,7 @@
 
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:from-pink-300 hover:to-yellow-300 hover:shadow-lg"
+					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
