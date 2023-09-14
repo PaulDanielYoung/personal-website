@@ -3,15 +3,14 @@
 		<div class="flex justify-center space-x-6 md:order-2">
 			<a
 				href="https://www.linkedin.com/in/paul-daniel-young"
-				class="text-black hover:text-gray-500"
+				class="lg:hover-scale-115 text-black"
 				target="_blank"
 				rel="noreferrer"
 			>
 				<span class="sr-only">LinkedIn</span>
 				<svg
-					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
-					class="icon icon-tabler icon-tabler-brand-linkedin"
+					class="footersvg icon icon-tabler icon-tabler-brand-linkedin"
 					width="36"
 					height="36"
 					viewBox="2 2 20 20"
@@ -32,15 +31,14 @@
 			</a>
 			<a
 				href="https://github.com/PaulDanielYoung"
-				class="text-black hover:text-gray-500"
+				class="lg:hover-scale-115 text-black"
 				target="_blank"
 				rel="noreferrer"
 			>
 				<span class="sr-only">Github</span>
 				<svg
-					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
-					class="icon icon-tabler icon-tabler-brand-github"
+					class="footersvg icon icon-tabler icon-tabler-brand-github"
 					width="36"
 					height="36"
 					viewBox="0 0 24 24"
@@ -58,15 +56,14 @@
 			</a>
 			<a
 				href="mailto:pauldanielyoung@outlook.com"
-				class="text-black hover:text-gray-500"
+				class="lg:hover-scale-115 text-black"
 				target="_blank"
 				rel="noreferrer"
 			>
 				<span class="sr-only">Email</span>
 				<svg
-					id="footersvg"
 					xmlns="http://www.w3.org/2000/svg"
-					class="icon icon-tabler icon-tabler-at"
+					class="footersvg icon icon-tabler icon-tabler-at"
 					width="36"
 					height="36"
 					viewBox="0 0 24 24"
@@ -100,11 +97,14 @@
 		);
 	}
 
-	#footersvg {
+	.footersvg {
 		transition: transform 0.3s ease;
 	}
 
-	#footersvg:hover {
-		transform: scale(1.15);
+	/* This sets up a custom class for the hover effect */
+	@screen lg {
+		.lg\:hover-scale-115:hover .footersvg {
+			transform: scale(1.15);
+		}
 	}
 </style>
