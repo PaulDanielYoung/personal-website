@@ -1,9 +1,9 @@
-<footer class="bg-white">
+<footer>
 	<div class="mx-auto max-w-7xl px-6 py-6 md:flex md:items-center md:justify-between lg:px-10">
 		<div class="flex justify-center space-x-6 md:order-2">
 			<a
 				href="https://www.linkedin.com/in/paul-daniel-young"
-				class="text-gray-400 hover:text-gray-500"
+				class="text-black hover:text-gray-500"
 				target="_blank"
 				rel="noreferrer"
 			>
@@ -32,7 +32,7 @@
 			</a>
 			<a
 				href="https://github.com/PaulDanielYoung"
-				class="text-gray-400 hover:text-gray-500"
+				class="text-black hover:text-gray-500"
 				target="_blank"
 				rel="noreferrer"
 			>
@@ -58,7 +58,7 @@
 			</a>
 			<a
 				href="mailto:pauldanielyoung@outlook.com"
-				class="text-gray-400 hover:text-gray-500"
+				class="text-black hover:text-gray-500"
 				target="_blank"
 				rel="noreferrer"
 			>
@@ -83,7 +83,7 @@
 			</a>
 		</div>
 		<div class="mt-5 md:order-1 md:mt-0">
-			<p class="text-center text-sm leading-5 text-gray-500">
+			<p class="text-center text-sm leading-5 text-black">
 				&copy; 2023 Paul Young. All rights reserved.
 			</p>
 		</div>
@@ -91,6 +91,15 @@
 </footer>
 
 <style lang="postcss">
+	footer {
+		background: linear-gradient(
+			to right,
+			rgba(252, 165, 165, 0.4),
+			rgba(165, 55, 253, 0.4),
+			rgba(55, 154, 255, 0.4)
+		);
+	}
+
 	#footersvg {
 		transition: transform 0.3s ease;
 	}

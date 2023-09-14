@@ -26,7 +26,7 @@
 			style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"
 		></div>
 	</div>
-	<p class="text-center text-lg leading-6 text-gray-900">
+	<p class="text-center text-xl font-bold leading-6 text-gray-900">
 		This website is currently a WIP, undergoing updates started on 9/12/2023. Check back soon!
 	</p>
 	<div class="flex flex-1 justify-end"></div>
