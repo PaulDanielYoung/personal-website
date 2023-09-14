@@ -10,7 +10,7 @@
 		>
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
@@ -42,7 +42,7 @@
 
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
@@ -74,7 +74,7 @@
 
 			<a href="#">
 				<article
-					class="scale-102 to-90%0 flex transform flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 transition-transform hover:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
@@ -110,7 +110,9 @@
 </div>
 
 <style lang="postcss">
-	.scale-102:hover {
-		transform: scale(1.02);
+	@screen lg {
+		.lg\:scale-102:hover {
+			transform: scale(1.02);
+		}
 	}
 </style>
