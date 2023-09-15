@@ -1,4 +1,4 @@
-<div class="pt-12">
+<div class="my-12">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -8,111 +8,42 @@
 		<div
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			<a href="#">
-				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
-				>
-					<div class="relative w-full">
-						<img
-							src="https://source.unsplash.com/featured/?film"
-							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-						/>
-					</div>
-					<div class="max-w-xl px-4">
-						<div class="flex items-center gap-x-4 text-xs">
-							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
-							<div
-								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
-							>
-								Marketing
-							</div>
-						</div>
-						<div class="group relative">
-							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Post #3</h3>
-							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
-								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-								deserunt vel. Iusto corrupti dicta.
-							</p>
-						</div>
-					</div>
-				</article>
-			</a>
-
-			<a href="#">
-				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
-				>
-					<div class="relative w-full">
-						<img
-							src="https://source.unsplash.com/featured/?technology"
-							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-						/>
-					</div>
-					<div class="max-w-xl px-4">
-						<div class="flex items-center gap-x-4 text-xs">
-							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
-							<div
-								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
-							>
-								Marketing
-							</div>
-						</div>
-						<div class="group relative">
-							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Post #2</h3>
-							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
-								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-								deserunt vel. Iusto corrupti dicta.
-							</p>
-						</div>
-					</div>
-				</article>
-			</a>
-
-			<a href="#">
-				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
-				>
-					<div class="relative w-full">
-						<img
-							src="https://source.unsplash.com/featured/?animals"
-							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-						/>
-					</div>
-					<div class="max-w-xl px-4">
-						<div class="flex items-center gap-x-4 text-xs">
-							<time datetime="2020-03-16" class="text-gray-900">Mar 16, 2020</time>
-							<div
-								class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
-							>
-								Marketing
-							</div>
-						</div>
-						<div class="group relative">
-							<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Post #1</h3>
-							<p class="mb-4 mt-3 line-clamp-3 text-sm leading-6 text-gray-900">
-								Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non
-								aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla
-								deserunt vel. Iusto corrupti dicta.
-							</p>
-						</div>
-					</div>
-				</article>
-			</a>
-
+			<!-- Featured Post -->
+			<article
+				class="rounded-xl border-2 border-black bg-slate-200 p-4 text-center lg:col-span-3 lg:transition-all hover:lg:bg-slate-300"
+			>
+				<a class="block no-underline" href="#" title="Read the article »">
+					<h2>Post #1</h2>
+					<h3>Date #1</h3>
+					<p>Description for the featured post goes here.</p>
+				</a>
+			</article>
+			<!-- Older Posts in a grid of 3 -->
+			<article
+				class="rounded-xl border-2 border-black bg-slate-300 p-4 text-center lg:transition-all hover:lg:bg-slate-400"
+			>
+				<a class="block no-underline" href="#" title="Read the article »">
+					<h2>Post #2</h2>
+					<p>Description goes here.</p>
+				</a>
+			</article>
+			<article
+				class="rounded-xl border-2 border-black bg-slate-300 p-4 text-center lg:transition-all hover:lg:bg-slate-400"
+			>
+				<a class="block no-underline" href="#" title="Read the article »">
+					<h2>Post #3</h2>
+					<p>Description goes here.</p>
+				</a>
+			</article>
+			<article
+				class="rounded-xl border-2 border-black bg-slate-300 p-4 text-center lg:transition-all hover:lg:bg-slate-400"
+			>
+				<a class="block no-underline" href="#" title="Read the article »">
+					<h2>Post #4</h2>
+					<p>Description goes here.</p>
+				</a>
+			</article>
 			<!-- More posts... -->
 		</div>
 	</div>
 </div>
-
-<style lang="postcss">
-	@screen lg {
-		.lg\:scale-102:hover {
-			transform: scale(1.02);
-		}
-	}
-</style>

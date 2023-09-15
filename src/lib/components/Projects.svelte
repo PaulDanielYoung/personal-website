@@ -10,13 +10,13 @@
 		>
 			<a href="#">
 				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl border-4 border-black bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
 							src="https://source.unsplash.com/featured/?business"
 							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+							class="aspect-[16/9] w-full rounded-t-xl border-b-2 border-black bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 						/>
 					</div>
 					<div class="max-w-xl px-4">
@@ -42,13 +42,13 @@
 
 			<a href="#">
 				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl border-4 border-black bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
 							src="https://source.unsplash.com/featured/?nature"
 							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+							class="aspect-[16/9] w-full rounded-t-xl border-b-2 border-black bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 						/>
 					</div>
 					<div class="max-w-xl px-4">
@@ -74,13 +74,13 @@
 
 			<a href="#">
 				<article
-					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
+					class="lg:scale-102 flex flex-col items-start gap-3 rounded-2xl border-4 border-black bg-gradient-to-r from-[#ff80b5] to-[#9089fc] lg:transform lg:transition-transform hover:lg:shadow-lg"
 				>
 					<div class="relative w-full">
 						<img
 							src="https://source.unsplash.com/featured/?monochromatic"
 							alt=""
-							class="aspect-[16/9] w-full rounded-t-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+							class="aspect-[16/9] w-full rounded-t-xl border-b-2 border-black bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 						/>
 					</div>
 					<div class="max-w-xl px-4">
