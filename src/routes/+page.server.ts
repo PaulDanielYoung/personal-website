@@ -1,6 +1,7 @@
 import { superValidate } from 'sveltekit-superforms/server';
 import { fail } from '@sveltejs/kit';
 import { z } from 'zod';
+import { supabase } from '$lib/supabaseClient';
 
 import type { Actions, PageServerLoad } from './$types';
 
@@ -28,7 +29,12 @@ export const actions: Actions = {
 			return fail(400, { form });
 		}
 
-		// TODO: Do something with the validated data
+		const { error } = await supabase.from('subscribers').insert([{ email: form.data.email }]);
+
+		if (error) {
+			console.error('Error inserting data: ', error);
+			return fail(500, { error: 'Internal Server Error' });
+		}
 
 		// Yep, return { form } here too
 		return { form };
