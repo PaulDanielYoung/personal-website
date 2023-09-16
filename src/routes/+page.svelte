@@ -8,7 +8,9 @@
 
 	export let data; // : PageData
 
-	const { form, enhance, errors, constraints } = superForm(data.form, { resetForm: true });
+	const { form, enhance, errors, constraints, message } = superForm(data.form, {
+		resetForm: true
+	});
 </script>
 
 <div
@@ -62,10 +64,17 @@
 				<div class="relative">
 					{#if $errors.email}
 						<span
-							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-[#f44336] p-[4px] text-center text-[#fff]"
+							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-red-500 p-[4px] text-center text-[#fff]"
 						>
 							{$errors.email}
 						</span>
+					{/if}
+					{#if $message}
+						<p
+							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-green-500 p-[4px] text-center text-[#fff]"
+						>
+							{$message}
+						</p>
 					{/if}
 					<input
 						id="email"

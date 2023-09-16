@@ -1,4 +1,4 @@
-import { setError, superValidate } from 'sveltekit-superforms/server';
+import { setError, superValidate, message } from 'sveltekit-superforms/server';
 import { fail } from '@sveltejs/kit';
 import { z } from 'zod';
 import { supabase } from '$lib/supabaseClient';
@@ -53,6 +53,9 @@ export const actions: Actions = {
 			console.error('Error inserting data: ', insertError);
 			return fail(500, { error: 'Internal Server Error' });
 		}
+
+		// Return success message after successful insertion
+		return message(form, 'Subscribed!');
 
 		// Yep, return { form } here too
 		return { form };
