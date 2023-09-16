@@ -8,7 +8,7 @@
 
 	export let data; // : PageData
 
-	const { form, errors, constraints } = superForm(data.form);
+	const { form, enhance, errors, constraints } = superForm(data.form, { resetForm: true });
 </script>
 
 <div
@@ -56,7 +56,7 @@
 			<h2 class="block lg:inline xl:block">Want updates?</h2>
 			<p class="block lg:inline xl:block">Sign up for my newsletter.</p>
 		</div>
-		<form method="POST" class="w-full max-w-md lg:col-span-5 lg:pt-2">
+		<form method="POST" use:enhance class="w-full max-w-md lg:col-span-5 lg:pt-2">
 			<div class="flex gap-x-4">
 				<label for="email" class="sr-only">Email address</label>
 				<input
