@@ -1,4 +1,4 @@
-import { superValidate } from 'sveltekit-superforms/server';
+import { setError, superValidate } from 'sveltekit-superforms/server';
 import { fail } from '@sveltejs/kit';
 import { z } from 'zod';
 import { supabase } from '$lib/supabaseClient';
@@ -29,10 +29,28 @@ export const actions: Actions = {
 			return fail(400, { form });
 		}
 
-		const { error } = await supabase.from('subscribers').insert([{ email: form.data.email }]);
+		// Check if email already exists in Supabase
+		const { data, error: fetchError } = await supabase
+			.from('subscribers')
+			.select('email')
+			.eq('email', form.data.email);
 
-		if (error) {
-			console.error('Error inserting data: ', error);
+		if (fetchError) {
+			console.error('Error fetching data: ', fetchError);
+			return fail(500, { error: 'Internal Server Error' });
+		}
+
+		if (data && data.length > 0) {
+			// If the email already exists in the database, return an error using setError
+			return setError(form, 'email', 'E-mail already exists.');
+		}
+
+		const { error: insertError } = await supabase
+			.from('subscribers')
+			.insert([{ email: form.data.email }]);
+
+		if (insertError) {
+			console.error('Error inserting data: ', insertError);
 			return fail(500, { error: 'Internal Server Error' });
 		}
 
