@@ -42,7 +42,7 @@ export const actions: Actions = {
 
 		if (data && data.length > 0) {
 			// If the email already exists in the database, return an error using setError
-			return setError(form, 'email', 'E-mail already exists.');
+			return setError(form, 'email', 'Already subscribed!');
 		}
 
 		const { error: insertError } = await supabase

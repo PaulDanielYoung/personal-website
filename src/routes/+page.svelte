@@ -59,24 +59,35 @@
 		<form method="POST" use:enhance class="w-full max-w-md lg:col-span-5 lg:pt-2">
 			<div class="flex gap-x-4">
 				<label for="email" class="sr-only">Email address</label>
-				<input
-					id="email"
-					name="email"
-					type="email"
-					aria-invalid={$errors.email ? 'true' : undefined}
-					bind:value={$form.email}
-					{...$constraints.email}
-					autocomplete="email"
-					required
-					class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-					placeholder="Enter your email"
-				/>
-				{#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
+				<div class="relative">
+					{#if $errors.email}
+						<span
+							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-[#f44336] p-[4px] text-center text-[#fff]"
+						>
+							{$errors.email}
+						</span>
+					{/if}
+					<input
+						id="email"
+						name="email"
+						type="email"
+						aria-invalid={$errors.email ? 'true' : undefined}
+						bind:value={$form.email}
+						{...$constraints.email}
+						autocomplete="email"
+						required
+						class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 {$errors.email
+							? 'invalid'
+							: ''}"
+						placeholder="Enter your email"
+					/>
+				</div>
 				<button
 					type="submit"
 					class="flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-					>Subscribe</button
 				>
+					Subscribe
+				</button>
 			</div>
 			<p class="mt-4 text-sm leading-6 text-gray-900">
 				You will be notified when a new post or project is added.
@@ -86,3 +97,10 @@
 </div>
 
 <Footer />
+
+<style lang="postcss">
+	.invalid {
+		border-color: #f44336 !important;
+		background-color: #ffe6e6;
+	}
+</style>
