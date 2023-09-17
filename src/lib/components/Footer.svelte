@@ -1,5 +1,5 @@
-<footer>
-	<div class="mx-auto max-w-7xl px-6 py-6 md:flex md:items-center md:justify-between lg:px-10">
+<footer class="bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300">
+	<div class="mx-auto max-w-7xl px-6 py-4 md:flex md:items-center md:justify-between lg:px-10">
 		<div class="flex justify-center space-x-6 md:order-2">
 			<a
 				href="https://www.linkedin.com/in/paul-daniel-young"
@@ -10,7 +10,7 @@
 				<span class="sr-only">LinkedIn</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="footersvg icon icon-tabler icon-tabler-brand-linkedin"
+					class="icon icon-tabler icon-tabler-brand-linkedin transition-transform duration-200 ease-in lg:hover:scale-115"
 					width="36"
 					height="36"
 					viewBox="2 2 20 20"
@@ -38,7 +38,7 @@
 				<span class="sr-only">Github</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="footersvg icon icon-tabler icon-tabler-brand-github"
+					class="icon icon-tabler icon-tabler-brand-linkedin transition-transform duration-200 ease-in lg:hover:scale-115"
 					width="36"
 					height="36"
 					viewBox="0 0 24 24"
@@ -63,7 +63,7 @@
 				<span class="sr-only">Email</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="footersvg icon icon-tabler icon-tabler-at"
+					class="icon icon-tabler icon-tabler-brand-linkedin transition-transform duration-200 ease-in lg:hover:scale-115"
 					width="36"
 					height="36"
 					viewBox="0 0 24 24"
@@ -79,32 +79,10 @@
 				</svg>
 			</a>
 		</div>
-		<div class="mt-5 md:order-1 md:mt-0">
+		<div class="mt-3 md:order-1 md:mt-0">
 			<p class="text-center text-sm leading-5 text-black">
 				&copy; 2023 Paul Young. All rights reserved.
 			</p>
 		</div>
 	</div>
 </footer>
-
-<style lang="postcss">
-	footer {
-		background: linear-gradient(
-			to right,
-			rgba(252, 165, 165, 0.4),
-			rgba(165, 55, 253, 0.4),
-			rgba(55, 154, 255, 0.4)
-		);
-	}
-
-	.footersvg {
-		transition: transform 0.3s ease;
-	}
-
-	/* This sets up a custom class for the hover effect */
-	@screen lg {
-		.lg\:hover-scale-115:hover .footersvg {
-			transform: scale(1.15);
-		}
-	}
-</style>

@@ -6,14 +6,15 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+				sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+			},
+			scale: {
+				115: '1.15'
 			}
 		}
 	},
 
-	plugins: [
-		require('@tailwindcss/forms'),
-	]
+	plugins: [require('@tailwindcss/forms')]
 };
 
 export default config;
