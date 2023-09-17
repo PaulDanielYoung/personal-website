@@ -2,6 +2,7 @@
 	import Blog from '$lib/components/Blog.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import toast, { Toaster } from 'svelte-french-toast';
 
 	//import type { PageData } from './$types';
 	import { superForm } from 'sveltekit-superforms/client';
@@ -11,7 +12,31 @@
 	const { form, enhance, errors, constraints, message } = superForm(data.form, {
 		resetForm: true
 	});
+
+	$: {
+		if ($errors.email && Array.isArray($errors.email)) {
+			$errors.email.forEach((err) =>
+				toast.error(err, {
+					position: 'bottom-center',
+					duration: 5000,
+					style:
+						'font-size: 1.2em; background-color: rgba(255, 0, 0, 1); color: white; border: 2px solid white; border-radius: 8px; padding: 10px 20px;'
+				})
+			);
+		}
+
+		if ($message) {
+			toast.success($message, {
+				position: 'bottom-center',
+				duration: 5000,
+				style:
+					'font-size: 1.2em; background-color: rgba(0, 200, 0, 1); color: white; border: 2px solid white; border-radius: 8px; padding: 10px 20px;'
+			});
+		}
+	}
 </script>
+
+<Toaster />
 
 <div
 	class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
@@ -62,20 +87,6 @@
 			<div class="flex gap-x-4">
 				<label for="email" class="sr-only">Email address</label>
 				<div class="relative">
-					{#if $errors.email}
-						<span
-							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-red-500 p-[4px] text-center text-[#fff]"
-						>
-							{$errors.email}
-						</span>
-					{/if}
-					{#if $message}
-						<p
-							class="absolute bottom-full left-1/2 z-[1] mb-1 w-[175px] -translate-x-1/2 transform rounded-md bg-green-500 p-[4px] text-center text-[#fff]"
-						>
-							{$message}
-						</p>
-					{/if}
 					<input
 						id="email"
 						name="email"
@@ -85,9 +96,7 @@
 						{...$constraints.email}
 						autocomplete="email"
 						required
-						class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 {$errors.email
-							? 'invalid'
-							: ''}"
+						class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 						placeholder="Enter your email"
 					/>
 				</div>
@@ -106,10 +115,3 @@
 </div>
 
 <Footer />
-
-<style lang="postcss">
-	.invalid {
-		border-color: #f44336 !important;
-		background-color: #ffe6e6;
-	}
-</style>
