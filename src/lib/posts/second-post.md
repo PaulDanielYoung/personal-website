@@ -12,4 +12,4 @@ published: true
 
 Media inside the **static** folder is served from `/`.
 
-![Svelte](/static/favicon.png)
+![Svelte](/favicon.png)
