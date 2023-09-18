@@ -16,7 +16,7 @@
 					explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel
 					iusto corrupti dicta laboris incididunt.
 				</p>
-				<div class="flex flex-col justify-between gap-4 lg:flex-col">
+				<div class="flex flex-col justify-between gap-4 lg:flex-col lg:gap-6">
 					<div class="flex justify-between">
 						<a
 							href="#"
@@ -26,7 +26,7 @@
 						>
 						<span class="px-6 text-sm text-gray-500">5 min read</span>
 					</div>
-					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
+					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900 lg:mb-0">
 						<span
 							class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
 							>Badge</span
@@ -132,8 +132,6 @@
 					</div>
 				</div>
 			</article>
-
-			<!-- More posts... -->
 		</div>
 	</div>
 </div>
