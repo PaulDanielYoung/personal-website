@@ -39,7 +39,7 @@
 								class="aspect-[16/9] w-full rounded-t-lg bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
 							/>
 						</div>
-						<div class="max-w-xl px-2">
+						<div class="w-full px-4">
 							<div class="mt-2 flex items-center gap-x-4 text-xs">
 								<time datetime={post.date} class="text-gray-500">{formatDate(post.date)}</time>
 								<span
@@ -54,6 +54,13 @@
 								<p class="mb-2 mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
 									{post.description}
 								</p>
+							</div>
+
+							<div class="mb-4 flex items-center justify-between">
+								<span class="text-sm font-semibold leading-6 text-indigo-600"
+									>Continue reading <span aria-hidden="true">&rarr;</span></span
+								>
+								<span class="text-sm text-gray-500">{post.readingLength}</span>
 							</div>
 						</div>
 					</article>
