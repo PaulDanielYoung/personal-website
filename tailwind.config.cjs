@@ -9,7 +9,7 @@ const config = {
 				sans: ['Inter var', ...defaultTheme.fontFamily.sans]
 			},
 			scale: {
-				115: '1.15'
+				101: '1.01'
 			}
 		}
 	},

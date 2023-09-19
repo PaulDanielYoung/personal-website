@@ -26,7 +26,9 @@
 		class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 space-y-4 lg:max-w-none lg:grid-cols-2 lg:space-y-0"
 	>
 		<a href={featuredPost.slug}>
-			<article class="h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:flex-col lg:p-6">
+			<article
+				class="lg:hover:scale-101 h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:shadow-xl"
+			>
 				<div class="group relative max-w-3xl">
 					<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
 						>{formatDate(featuredPost.date)}</time
@@ -61,7 +63,9 @@
 
 		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
 			<a href={secondPost.slug} class="">
-				<article class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
+				<article
+					class="lg:hover:scale-101 mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:shadow-xl"
+				>
 					<div class="group relative max-w-3xl">
 						<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
 							>{formatDate(secondPost.date)}</time
@@ -94,7 +98,9 @@
 			</a>
 
 			<a href={thirdPost.slug}>
-				<article class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
+				<article
+					class="lg:hover:scale-101 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:shadow-xl"
+				>
 					<div class="group relative max-w-3xl">
 						<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
 							>{formatDate(thirdPost.date)}</time
