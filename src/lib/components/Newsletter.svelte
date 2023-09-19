@@ -15,7 +15,7 @@
 			$errors.email.forEach((err) =>
 				toast.error(err, {
 					position: 'bottom-center',
-					duration: 5000,
+					duration: 4000,
 					style:
 						'font-size: 1.2em; background-color: rgba(255, 0, 0, 1); color: white; border: 2px solid white; border-radius: 8px; padding: 10px 20px;'
 				})
@@ -25,7 +25,7 @@
 		if ($message) {
 			toast.success($message, {
 				position: 'bottom-center',
-				duration: 5000,
+				duration: 4000,
 				style:
 					'font-size: 1.2em; background-color: rgba(0, 200, 0, 1); color: white; border: 2px solid white; border-radius: 8px; padding: 10px 20px;'
 			});
