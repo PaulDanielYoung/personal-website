@@ -25,65 +25,29 @@
 	<div
 		class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 space-y-4 lg:max-w-none lg:grid-cols-2 lg:space-y-0"
 	>
-		<article class="rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:flex-col lg:p-6">
-			<div class="group relative max-w-3xl">
-				<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
-					>{formatDate(featuredPost.date)}</time
-				>
-				<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
-					{featuredPost.title}
-				</h2>
-				<p class="mt-2 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg">
-					{featuredPost.description}
-				</p>
-			</div>
-			<div class="mt-3 flex flex-col justify-end gap-4 lg:mt-auto">
-				<div class="flex items-center justify-between">
-					<a
-						href={featuredPost.slug}
-						class="text-sm font-semibold leading-6 text-indigo-600"
-						aria-describedby="featured-post"
-						>Continue reading <span aria-hidden="true">&rarr;</span></a
-					>
-					<span class="px-6 text-sm text-gray-500">{featuredPost.readingLength}</span>
-				</div>
-				<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-					{#each featuredPost.categories as category, index}
-						<span
-							class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
-								index
-							)}">{category}</span
-						>
-					{/each}
-				</div>
-			</div>
-		</article>
-
-		<div class="mx-auto w-full max-w-2xl space-y-4 lg:mx-0 lg:max-w-none">
-			<article class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
+		<a href={featuredPost.slug}>
+			<article class="h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:flex-col lg:p-6">
 				<div class="group relative max-w-3xl">
-					<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
-						>{formatDate(secondPost.date)}</time
+					<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
+						>{formatDate(featuredPost.date)}</time
 					>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900">
-						{secondPost.title}
+					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
+						{featuredPost.title}
 					</h2>
-					<p class="mt-2 text-sm leading-6 text-gray-600">
-						{secondPost.description}
+					<p class="mt-2 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg">
+						{featuredPost.description}
 					</p>
 				</div>
-				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
+
+				<div class="mt-3 flex flex-col justify-end gap-4 lg:mt-auto">
 					<div class="flex items-center justify-between">
-						<a
-							href={secondPost.slug}
-							class="text-sm font-semibold leading-6 text-indigo-600"
-							aria-describedby="featured-post"
-							>Continue reading <span aria-hidden="true">&rarr;</span></a
+						<span class="text-sm font-semibold leading-6 text-indigo-600"
+							>Continue reading <span aria-hidden="true">&rarr;</span></span
 						>
-						<span class="px-6 text-sm text-gray-500">{secondPost.readingLength}</span>
+						<span class="px-6 text-sm text-gray-500">{featuredPost.readingLength}</span>
 					</div>
 					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						{#each secondPost.categories as category, index}
+						{#each featuredPost.categories as category, index}
 							<span
 								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
 									index
@@ -93,40 +57,74 @@
 					</div>
 				</div>
 			</article>
+		</a>
 
-			<article class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
-				<div class="group relative max-w-3xl">
-					<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
-						>{formatDate(thirdPost.date)}</time
-					>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900">
-						{thirdPost.title}
-					</h2>
-					<p class="mt-2 text-sm leading-6 text-gray-600">
-						{thirdPost.description}
-					</p>
-				</div>
-				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
-					<div class="flex items-center justify-between">
-						<a
-							href={thirdPost.slug}
-							class="text-sm font-semibold leading-6 text-indigo-600"
-							aria-describedby="featured-post"
-							>Continue reading <span aria-hidden="true">&rarr;</span></a
+		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
+			<a href={secondPost.slug} class="">
+				<article class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
+					<div class="group relative max-w-3xl">
+						<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
+							>{formatDate(secondPost.date)}</time
 						>
-						<span class="px-6 text-sm text-gray-500">{thirdPost.readingLength}</span>
+						<h2 class="mt-2 text-lg font-semibold text-gray-900">
+							{secondPost.title}
+						</h2>
+						<p class="mt-2 text-sm leading-6 text-gray-600">
+							{secondPost.description}
+						</p>
 					</div>
-					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						{#each thirdPost.categories as category, index}
-							<span
-								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
-									index
-								)}">{category}</span
+					<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
+						<div class="flex items-center justify-between">
+							<span class="text-sm font-semibold leading-6 text-indigo-600"
+								>Continue reading <span aria-hidden="true">&rarr;</span></span
 							>
-						{/each}
+							<span class="px-6 text-sm text-gray-500">{secondPost.readingLength}</span>
+						</div>
+						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
+							{#each secondPost.categories as category, index}
+								<span
+									class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
+										index
+									)}">{category}</span
+								>
+							{/each}
+						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</a>
+
+			<a href={thirdPost.slug}>
+				<article class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6">
+					<div class="group relative max-w-3xl">
+						<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
+							>{formatDate(thirdPost.date)}</time
+						>
+						<h2 class="mt-2 text-lg font-semibold text-gray-900">
+							{thirdPost.title}
+						</h2>
+						<p class="mt-2 text-sm leading-6 text-gray-600">
+							{thirdPost.description}
+						</p>
+					</div>
+					<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
+						<div class="flex items-center justify-between">
+							<span class="text-sm font-semibold leading-6 text-indigo-600"
+								>Continue reading <span aria-hidden="true">&rarr;</span></span
+							>
+							<span class="px-6 text-sm text-gray-500">{thirdPost.readingLength}</span>
+						</div>
+						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
+							{#each thirdPost.categories as category, index}
+								<span
+									class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
+										index
+									)}">{category}</span
+								>
+							{/each}
+						</div>
+					</div>
+				</article>
+			</a>
 		</div>
 	</div>
 </div>
