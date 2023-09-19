@@ -30,13 +30,8 @@
 				<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
 					>{formatDate(featuredPost.date)}</time
 				>
-				<h2
-					class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-gray-600 lg:mt-4 lg:text-2xl xl:text-4xl"
-				>
-					<a href="#">
-						<span class="absolute inset-0"></span>
-						{featuredPost.title}
-					</a>
+				<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
+					{featuredPost.title}
 				</h2>
 				<p class="mt-2 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg">
 					{featuredPost.description}
@@ -70,11 +65,8 @@
 					<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
 						>{formatDate(secondPost.date)}</time
 					>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-gray-600">
-						<a href="#">
-							<span class="absolute inset-0"></span>
-							{secondPost.title}
-						</a>
+					<h2 class="mt-2 text-lg font-semibold text-gray-900">
+						{secondPost.title}
 					</h2>
 					<p class="mt-2 text-sm leading-6 text-gray-600">
 						{secondPost.description}
@@ -107,11 +99,8 @@
 					<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
 						>{formatDate(thirdPost.date)}</time
 					>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-gray-600">
-						<a href="#">
-							<span class="absolute inset-0"></span>
-							{thirdPost.title}
-						</a>
+					<h2 class="mt-2 text-lg font-semibold text-gray-900">
+						{thirdPost.title}
 					</h2>
 					<p class="mt-2 text-sm leading-6 text-gray-600">
 						{thirdPost.description}
