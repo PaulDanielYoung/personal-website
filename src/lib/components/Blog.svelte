@@ -6,6 +6,19 @@
 	const featuredPost = posts[0];
 	const secondPost = posts[1];
 	const thirdPost = posts[2];
+
+	function getBgColor(index: number): string {
+		switch (index % 3) {
+			case 0:
+				return 'bg-red-50 text-red-700 ring-red-600/10';
+			case 1:
+				return 'bg-blue-50 text-blue-700 ring-blue-600/10';
+			case 2:
+				return 'bg-green-50 text-green-700 ring-green-600/10';
+			default:
+				return 'bg-red-50 text-red-700 ring-red-600/10';
+		}
+	}
 </script>
 
 <div class="my-12 px-6 lg:px-8">
@@ -26,7 +39,7 @@
 					{featuredPost.description}
 				</p>
 				<div class="flex flex-col justify-between gap-4 lg:flex-col lg:gap-6">
-					<div class="flex justify-between">
+					<div class="flex items-center justify-between">
 						<a
 							href={featuredPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
@@ -36,10 +49,11 @@
 						<span class="px-6 text-sm text-gray-500">{featuredPost.readingLength}</span>
 					</div>
 					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900 lg:mb-0">
-						{#each featuredPost.categories as category}
+						{#each featuredPost.categories as category, index}
 							<span
-								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-								>{category}</span
+								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
+									index
+								)}">{category}</span
 							>
 						{/each}
 					</div>
@@ -64,7 +78,7 @@
 					</p>
 				</div>
 				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
-					<div class="flex justify-between">
+					<div class="flex items-center justify-between">
 						<a
 							href={secondPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
@@ -74,10 +88,11 @@
 						<span class="px-6 text-sm text-gray-500">{secondPost.readingLength}</span>
 					</div>
 					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						{#each secondPost.categories as category}
+						{#each secondPost.categories as category, index}
 							<span
-								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-								>{category}</span
+								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
+									index
+								)}">{category}</span
 							>
 						{/each}
 					</div>
@@ -100,7 +115,7 @@
 					</p>
 				</div>
 				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
-					<div class="flex justify-between">
+					<div class="flex items-center justify-between">
 						<a
 							href={thirdPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
@@ -110,10 +125,11 @@
 						<span class="px-6 text-sm text-gray-500">{thirdPost.readingLength}</span>
 					</div>
 					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						{#each thirdPost.categories as category}
+						{#each thirdPost.categories as category, index}
 							<span
-								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-								>{category}</span
+								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
+									index
+								)}">{category}</span
 							>
 						{/each}
 					</div>
