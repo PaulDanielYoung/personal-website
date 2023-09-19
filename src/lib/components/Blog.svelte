@@ -33,21 +33,15 @@
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
 						>
-						<span class="px-6 text-sm text-gray-500">5 min read</span>
+						<span class="px-6 text-sm text-gray-500">{featuredPost.readingLength}</span>
 					</div>
 					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900 lg:mb-0">
-						<span
-							class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
-							>Badge</span
-						>
+						{#each featuredPost.categories as category}
+							<span
+								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+								>{category}</span
+							>
+						{/each}
 					</div>
 				</div>
 			</div>
@@ -77,21 +71,15 @@
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
 						>
-						<span class="px-6 text-sm text-gray-500">5 min read</span>
+						<span class="px-6 text-sm text-gray-500">{secondPost.readingLength}</span>
 					</div>
 					<div class="mb-4 flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						<span
-							class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
-							>Badge</span
-						>
+						{#each secondPost.categories as category}
+							<span
+								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+								>{category}</span
+							>
+						{/each}
 					</div>
 				</div>
 			</article>
@@ -119,21 +107,15 @@
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
 						>
-						<span class="px-6 text-sm text-gray-500">5 min read</span>
+						<span class="px-6 text-sm text-gray-500">{thirdPost.readingLength}</span>
 					</div>
 					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						<span
-							class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
-							>Badge</span
-						>
-						<span
-							class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
-							>Badge</span
-						>
+						{#each thirdPost.categories as category}
+							<span
+								class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
+								>{category}</span
+							>
+						{/each}
 					</div>
 				</div>
 			</article>
