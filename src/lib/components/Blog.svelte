@@ -10,7 +10,7 @@
 
 <div class="my-12 px-6 lg:px-8">
 	<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 lg:max-w-none lg:grid-cols-2">
-		<article class="flex h-full flex-col items-center justify-center border-b-2 lg:border-b-0">
+		<article class="flex h-full flex-col justify-center border-b-2 lg:border-b-0">
 			<div class="flex flex-col space-y-4">
 				<!-- This wrapper is added to ensure the spacing between the child elements remains consistent -->
 				<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
@@ -28,7 +28,7 @@
 				<div class="flex flex-col justify-between gap-4 lg:flex-col lg:gap-6">
 					<div class="flex justify-between">
 						<a
-							href="#"
+							href={featuredPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
@@ -72,7 +72,7 @@
 				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
 					<div class="flex justify-between">
 						<a
-							href="#"
+							href={secondPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
@@ -114,7 +114,7 @@
 				<div class="mt-3 flex flex-col justify-between gap-4 lg:flex-col">
 					<div class="flex justify-between">
 						<a
-							href="#"
+							href={thirdPost.slug}
 							class="text-sm font-semibold leading-6 text-indigo-600"
 							aria-describedby="featured-post"
 							>Continue reading <span aria-hidden="true">&rarr;</span></a
