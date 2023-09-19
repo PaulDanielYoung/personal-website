@@ -28,6 +28,15 @@
 	<Blog {posts} />
 {/if}
 
+<div class="mb-12 mt-4 flex justify-center lg:mr-8 lg:justify-end">
+	<a
+		href="/blog"
+		class="inline-flex items-center rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition duration-150 ease-in-out hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 active:bg-indigo-700"
+	>
+		See all posts
+	</a>
+</div>
+
 <p class="text-center text-3xl font-bold tracking-tight sm:text-4xl">What I'm working on...</p>
 
 <Projects />

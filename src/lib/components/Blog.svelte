@@ -21,13 +21,13 @@
 	}
 </script>
 
-<div class="my-12 px-6 lg:px-8">
+<div class="mt-12 px-6 lg:px-8">
 	<div
 		class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 space-y-4 lg:max-w-none lg:grid-cols-2 lg:space-y-0"
 	>
 		<a href={featuredPost.slug}>
 			<article
-				class="lg:hover:scale-101 h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:shadow-xl"
+				class="h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
 					<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
@@ -46,7 +46,7 @@
 						<span class="text-sm font-semibold leading-6 text-indigo-600"
 							>Continue reading <span aria-hidden="true">&rarr;</span></span
 						>
-						<span class="px-6 text-sm text-gray-500">{featuredPost.readingLength}</span>
+						<span class="text-sm text-gray-500">{featuredPost.readingLength}</span>
 					</div>
 					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
 						{#each featuredPost.categories as category, index}
@@ -64,7 +64,7 @@
 		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
 			<a href={secondPost.slug} class="">
 				<article
-					class="lg:hover:scale-101 mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:shadow-xl"
+					class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
@@ -82,7 +82,7 @@
 							<span class="text-sm font-semibold leading-6 text-indigo-600"
 								>Continue reading <span aria-hidden="true">&rarr;</span></span
 							>
-							<span class="px-6 text-sm text-gray-500">{secondPost.readingLength}</span>
+							<span class="text-sm text-gray-500">{secondPost.readingLength}</span>
 						</div>
 						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
 							{#each secondPost.categories as category, index}
@@ -99,7 +99,7 @@
 
 			<a href={thirdPost.slug}>
 				<article
-					class="lg:hover:scale-101 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:shadow-xl"
+					class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
@@ -117,7 +117,7 @@
 							<span class="text-sm font-semibold leading-6 text-indigo-600"
 								>Continue reading <span aria-hidden="true">&rarr;</span></span
 							>
-							<span class="px-6 text-sm text-gray-500">{thirdPost.readingLength}</span>
+							<span class="text-sm text-gray-500">{thirdPost.readingLength}</span>
 						</div>
 						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
 							{#each thirdPost.categories as category, index}
