@@ -77,7 +77,7 @@
 							/>
 						</div>
 						<div class="w-full px-4">
-							<div class="mt-2 flex items-center gap-x-4 text-xs">
+							<div class="mt-2 flex items-center justify-between text-xs">
 								<time datetime={post.date} class="text-gray-500">{formatDate(post.date)}</time>
 								<span
 									class="relative z-10 rounded-full bg-red-50 px-3 py-1.5 font-medium text-gray-600"
@@ -85,15 +85,12 @@
 								>
 							</div>
 							<div class="group relative">
-								<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">
-									{post.title}
-								</h3>
-								<p class="mb-2 mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+								<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">{post.title}</h3>
+								<p class="mb-4 mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
 									{post.description}
 								</p>
 							</div>
-
-							<div class="mb-4 flex items-center justify-between">
+							<div class="mb-2 flex items-center justify-between">
 								<span class="text-sm font-semibold leading-6 text-indigo-600"
 									>Continue reading <span aria-hidden="true">&rarr;</span></span
 								>
