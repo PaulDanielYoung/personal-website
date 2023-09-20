@@ -27,7 +27,7 @@
 	>
 		<a href={featuredPost.slug}>
 			<article
-				class="h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
 					<div class="flex items-center justify-between text-xs">
@@ -49,7 +49,9 @@
 					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
 						{featuredPost.title}
 					</h2>
-					<p class="mt-2 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg">
+					<p
+						class="mt-2 line-clamp-6 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg"
+					>
 						{featuredPost.description}
 					</p>
 				</div>
@@ -68,7 +70,7 @@
 		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
 			<a href={secondPost.slug} class="">
 				<article
-					class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+					class="mb-4 rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
@@ -90,7 +92,7 @@
 						<h2 class="mt-2 text-lg font-semibold text-gray-900">
 							{secondPost.title}
 						</h2>
-						<p class="mt-2 text-sm leading-6 text-gray-600">
+						<p class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
 							{secondPost.description}
 						</p>
 					</div>
@@ -107,7 +109,7 @@
 
 			<a href={thirdPost.slug} class="">
 				<article
-					class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+					class="rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
@@ -129,7 +131,7 @@
 						<h2 class="mt-2 text-lg font-semibold text-gray-900">
 							{thirdPost.title}
 						</h2>
-						<p class="mt-2 text-sm leading-6 text-gray-600">
+						<p class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
 							{thirdPost.description}
 						</p>
 					</div>
