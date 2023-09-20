@@ -13,20 +13,19 @@
 
 <article>
 	<!-- Title -->
-	<hgroup>
-		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
-	</hgroup>
+	<div class="mx-auto max-w-md">
+		<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
+		<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
+	</div>
 
-	<!-- Tags -->
-	<div class="tags">
+	<div class="flex justify-center gap-2">
 		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
+			<span class="">&num;{category}</span>
 		{/each}
 	</div>
 
 	<!-- Post -->
-	<div class="prose">
+	<div class="mt-10 px-4">
 		<svelte:component this={data.content} />
 	</div>
 </article>
