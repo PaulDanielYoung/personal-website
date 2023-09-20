@@ -27,10 +27,10 @@
 	>
 		<a href={featuredPost.slug}>
 			<article
-				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+				class="h-full rounded-xl border-4 border-pink-300 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
-					<div class="flex items-center justify-between text-xs">
+					<div class="flex items-center justify-between text-xs lg:text-base">
 						<time datetime={featuredPost.date} class="text-gray-500">
 							{formatDate(featuredPost.date)}
 						</time>
@@ -46,11 +46,11 @@
 							{/each}
 						</div>
 					</div>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
+					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-4xl xl:text-5xl">
 						{featuredPost.title}
 					</h2>
 					<p
-						class="lg:line-clamp-12 mt-2 line-clamp-6 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base xl:text-lg"
+						class="lg:line-clamp-8 mt-2 line-clamp-4 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-lg xl:text-xl"
 					>
 						{featuredPost.description}
 					</p>
@@ -58,10 +58,10 @@
 
 				<div class="mt-3 flex flex-col justify-end gap-4 lg:mt-auto">
 					<div class="flex items-center justify-between">
-						<span class="text-sm font-semibold leading-6 text-indigo-600">
+						<span class="text-sm font-semibold leading-6 text-indigo-600 lg:text-base">
 							Continue reading <span aria-hidden="true">&rarr;</span>
 						</span>
-						<span class="text-sm text-gray-500">{featuredPost.readingLength}</span>
+						<span class="text-sm text-gray-500 lg:text-base">{featuredPost.readingLength}</span>
 					</div>
 				</div>
 			</article>
@@ -70,7 +70,7 @@
 		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
 			<a href={secondPost.slug} class="">
 				<article
-					class="mb-4 rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+					class="mb-4 rounded-xl border-4 border-purple-300 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
@@ -109,7 +109,7 @@
 
 			<a href={thirdPost.slug} class="">
 				<article
-					class="rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+					class="rounded-xl border-4 border-blue-300 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
