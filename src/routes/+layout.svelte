@@ -8,9 +8,6 @@
 </script>
 
 <div class="flex min-h-screen flex-col">
-	{#if data.url.startsWith('/blog')}
-		<Header />
-	{/if}
 	<div class="flex-grow">
 		<PageTransition url={data.url}>
 			<slot />
