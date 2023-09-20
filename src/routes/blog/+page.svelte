@@ -9,14 +9,7 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<a
-	href="/"
-	class="fixed left-5 top-5 z-50 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition duration-150 ease-in-out hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 active:bg-indigo-700"
->
-	Go back home
-</a>
-
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-8">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
@@ -25,7 +18,7 @@
 			</p>
 		</div>
 		<div
-			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+			class="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
 			{#each data.posts as post}
 				<a href={post.slug}>
