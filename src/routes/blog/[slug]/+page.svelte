@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div class="flex justify-center px-6 pb-2 pt-6 sm:pt-12 lg:px-8">
-	<div class="relative flex w-full max-w-6xl justify-center py-3 sm:justify-normal">
+	<div class="relative flex w-full max-w-6xl justify-center py-3 lg:justify-normal">
 		<Breadcrumb title={data.meta.title} />
 	</div>
 </div>
