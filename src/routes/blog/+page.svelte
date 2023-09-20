@@ -3,6 +3,19 @@
 	import * as config from '$lib/config';
 
 	export let data;
+
+	function getBlogColor(index: number): string {
+		switch (index % 3) {
+			case 0:
+				return 'hover:lg:border-pink-300';
+			case 1:
+				return 'hover:lg:border-purple-300';
+			case 2:
+				return 'hover:lg:border-blue-300';
+			default:
+				return 'hover:lg:border-slate-300';
+		}
+	}
 </script>
 
 <svelte:head>
@@ -57,17 +70,17 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-			<p class="mt-2 text-lg leading-8 text-gray-600">
-				Sometimes, I write about stuff that interests me.
-			</p>
+			<p class="mt-2 text-lg leading-8 text-gray-600">The #1 Paul Young blog on the internet.</p>
 		</div>
 		<div
 			class="mx-auto my-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each data.posts as post}
+			{#each data.posts as post, index}
 				<a href={post.slug}>
 					<article
-						class="flex flex-col items-start justify-between rounded-lg border-2 bg-slate-50 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+						class="flex flex-col items-start justify-between rounded-lg border-4 bg-slate-50 lg:transition lg:hover:scale-101 lg:hover:shadow-xl {getBlogColor(
+							index
+						)}"
 					>
 						<div class="relative w-full">
 							<img
