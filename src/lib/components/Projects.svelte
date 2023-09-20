@@ -1,6 +1,4 @@
-<div
-	class="my-12 grid grid-cols-1 items-start gap-12 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 lg:px-8"
->
+<div class="grid grid-cols-1 items-start gap-4 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 lg:px-8">
 	<div class="lg:col-span-2">
 		<img
 			src="https://source.unsplash.com/random/?nature"
