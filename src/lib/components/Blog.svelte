@@ -30,9 +30,22 @@
 				class="h-full rounded-xl border-2 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
-					<time datetime={featuredPost.date} class="block text-sm leading-6 text-gray-600"
-						>{formatDate(featuredPost.date)}</time
-					>
+					<div class="flex items-center justify-between text-xs">
+						<time datetime={featuredPost.date} class="text-gray-500">
+							{formatDate(featuredPost.date)}
+						</time>
+						<div>
+							{#each featuredPost.categories as category, index}
+								<span
+									class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
+										index
+									)}"
+								>
+									{category}
+								</span>
+							{/each}
+						</div>
+					</div>
 					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-2xl xl:text-4xl">
 						{featuredPost.title}
 					</h2>
@@ -43,19 +56,10 @@
 
 				<div class="mt-3 flex flex-col justify-end gap-4 lg:mt-auto">
 					<div class="flex items-center justify-between">
-						<span class="text-sm font-semibold leading-6 text-indigo-600"
-							>Continue reading <span aria-hidden="true">&rarr;</span></span
-						>
+						<span class="text-sm font-semibold leading-6 text-indigo-600">
+							Continue reading <span aria-hidden="true">&rarr;</span>
+						</span>
 						<span class="text-sm text-gray-500">{featuredPost.readingLength}</span>
-					</div>
-					<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-						{#each featuredPost.categories as category, index}
-							<span
-								class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
-									index
-								)}">{category}</span
-							>
-						{/each}
 					</div>
 				</div>
 			</article>
@@ -67,9 +71,22 @@
 					class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
-						<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
-							>{formatDate(secondPost.date)}</time
-						>
+						<div class="flex items-center justify-between text-xs">
+							<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
+								>{formatDate(secondPost.date)}</time
+							>
+							<div>
+								{#each secondPost.categories as category, index}
+									<span
+										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
+											index
+										)}"
+									>
+										{category}
+									</span>
+								{/each}
+							</div>
+						</div>
 						<h2 class="mt-2 text-lg font-semibold text-gray-900">
 							{secondPost.title}
 						</h2>
@@ -84,27 +101,31 @@
 							>
 							<span class="text-sm text-gray-500">{secondPost.readingLength}</span>
 						</div>
-						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-							{#each secondPost.categories as category, index}
-								<span
-									class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
-										index
-									)}">{category}</span
-								>
-							{/each}
-						</div>
 					</div>
 				</article>
 			</a>
 
-			<a href={thirdPost.slug}>
+			<a href={thirdPost.slug} class="">
 				<article
-					class="rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+					class="mb-4 rounded-xl border-2 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
-						<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
-							>{formatDate(thirdPost.date)}</time
-						>
+						<div class="flex items-center justify-between text-xs">
+							<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
+								>{formatDate(thirdPost.date)}</time
+							>
+							<div>
+								{#each thirdPost.categories as category, index}
+									<span
+										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
+											index
+										)}"
+									>
+										{category}
+									</span>
+								{/each}
+							</div>
+						</div>
 						<h2 class="mt-2 text-lg font-semibold text-gray-900">
 							{thirdPost.title}
 						</h2>
@@ -118,15 +139,6 @@
 								>Continue reading <span aria-hidden="true">&rarr;</span></span
 							>
 							<span class="text-sm text-gray-500">{thirdPost.readingLength}</span>
-						</div>
-						<div class="flex gap-x-2.5 text-sm font-semibold leading-6 text-gray-900">
-							{#each thirdPost.categories as category, index}
-								<span
-									class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset {getBgColor(
-										index
-									)}">{category}</span
-								>
-							{/each}
 						</div>
 					</div>
 				</article>
