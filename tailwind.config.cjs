@@ -11,6 +11,9 @@ const config = {
 			scale: {
 				101: '1.01',
 				115: '1.15'
+			},
+			lineClamp: {
+				12: '12'
 			}
 		}
 	},
