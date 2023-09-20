@@ -1,5 +1,5 @@
 <!-- Main Container -->
-<div class="flex min-h-screen items-center justify-center px-6 py-6 sm:py-12 lg:px-8">
+<div class="flex min-h-screen items-start justify-center px-6 py-6 sm:py-12 lg:px-8">
 	<!-- Content Container -->
 	<div class="relative w-full max-w-6xl py-3">
 		<!-- Card Container -->
