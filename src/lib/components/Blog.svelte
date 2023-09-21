@@ -50,7 +50,7 @@
 						{featuredPost.title}
 					</h2>
 					<p
-						class="lg:line-clamp-8 mt-2 line-clamp-4 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-lg xl:text-xl"
+						class="mt-2 line-clamp-4 text-sm leading-6 text-gray-600 lg:mt-4 lg:line-clamp-8 lg:text-lg xl:text-xl"
 					>
 						{featuredPost.description}
 					</p>
