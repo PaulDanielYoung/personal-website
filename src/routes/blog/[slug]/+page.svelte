@@ -23,15 +23,11 @@
 	<div class="relative w-full max-w-6xl py-3">
 		<!-- Card Container -->
 		<div
-			class="absolute inset-0 rotate-3 rounded-3xl bg-gradient-to-r from-cyan-400 to-blue-400 shadow-lg"
+			class="absolute z-10 h-full w-[102%] transform rounded-3xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg"
 		></div>
-		<div
-			class="absolute inset-0 rotate-2 rounded-3xl bg-gradient-to-r from-pink-400 to-red-400 shadow-lg"
-		></div>
-		<div
-			class="absolute inset-0 rotate-1 rounded-3xl bg-gradient-to-r from-purple-400 to-indigo-400 shadow-lg"
-		></div>
-		<div class="relative rounded-3xl border-2 bg-white px-4 py-10 shadow-lg">
+		<!-- Card 2: Pink to Red Gradient -->
+
+		<div class="relative z-50 rounded-3xl border-2 bg-white px-4 py-10 shadow-lg">
 			<!-- Blog Header (Consider adding a back button or breadcrumb for navigation) -->
 
 			<!-- Slot - This is where your blog content will be injected -->

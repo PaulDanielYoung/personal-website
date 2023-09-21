@@ -30,7 +30,7 @@
 				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:border-8 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
-					<div class="flex items-center justify-between text-xs lg:text-base">
+					<div class="flex items-center justify-between text-xs lg:text-sm">
 						<time datetime={featuredPost.date} class="text-gray-500">
 							{formatDate(featuredPost.date)}
 						</time>
@@ -46,11 +46,11 @@
 							{/each}
 						</div>
 					</div>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-4 lg:text-4xl xl:text-5xl">
+					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-4xl xl:text-5xl">
 						{featuredPost.title}
 					</h2>
 					<p
-						class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600 lg:mt-6 lg:line-clamp-8 lg:text-lg xl:text-xl"
+						class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600 lg:mt-6 lg:line-clamp-8 lg:text-base xl:text-lg"
 					>
 						{featuredPost.description}
 					</p>
