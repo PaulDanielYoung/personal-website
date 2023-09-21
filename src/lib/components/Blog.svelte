@@ -27,7 +27,7 @@
 	>
 		<a href={featuredPost.slug}>
 			<article
-				class="h-full rounded-xl border-8 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 hover:lg:border-pink-300 lg:hover:shadow-xl"
+				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:border-8 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="group relative max-w-3xl">
 					<div class="flex items-center justify-between text-xs lg:text-base">
@@ -50,7 +50,7 @@
 						{featuredPost.title}
 					</h2>
 					<p
-						class="mt-2 line-clamp-4 text-sm leading-6 text-gray-600 lg:mt-4 lg:line-clamp-8 lg:text-lg xl:text-xl"
+						class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600 lg:mt-6 lg:line-clamp-8 lg:text-lg xl:text-xl"
 					>
 						{featuredPost.description}
 					</p>
@@ -70,7 +70,7 @@
 		<div class="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
 			<a href={secondPost.slug} class="">
 				<article
-					class="mb-4 rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 hover:lg:border-purple-300 lg:hover:shadow-xl"
+					class="mb-4 rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
@@ -109,7 +109,7 @@
 
 			<a href={thirdPost.slug} class="">
 				<article
-					class="rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 hover:lg:border-blue-300 lg:hover:shadow-xl"
+					class="rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
 					<div class="group relative max-w-3xl">
 						<div class="flex items-center justify-between text-xs">
