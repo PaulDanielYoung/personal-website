@@ -29,7 +29,7 @@
 			<article
 				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:border-8 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
-				<div class="group relative max-w-3xl">
+				<div class="relative">
 					<div class="flex items-center justify-between text-xs lg:text-sm">
 						<time datetime={featuredPost.date} class="text-gray-500">
 							{formatDate(featuredPost.date)}
@@ -72,7 +72,7 @@
 				<article
 					class="mb-4 rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
-					<div class="group relative max-w-3xl">
+					<div class="relative">
 						<div class="flex items-center justify-between text-xs">
 							<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
 								>{formatDate(secondPost.date)}</time
@@ -111,7 +111,7 @@
 				<article
 					class="rounded-xl border-4 bg-slate-50 p-3 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 				>
-					<div class="group relative max-w-3xl">
+					<div class="relative">
 						<div class="flex items-center justify-between text-xs">
 							<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
 								>{formatDate(thirdPost.date)}</time

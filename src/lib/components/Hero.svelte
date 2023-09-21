@@ -1,5 +1,5 @@
 <div
-	class="flex h-[85vh] flex-col items-center gap-4 px-6 py-6 lg:flex-row lg:justify-center lg:gap-8 lg:px-8 lg:py-0"
+	class="flex h-[85vh] flex-col items-center gap-4 px-6 py-6 lg:flex-row lg:justify-between lg:gap-8 lg:px-8 lg:py-0"
 >
 	<div
 		class="mx-auto max-w-3xl flex-grow-0 flex-col items-center space-y-2 py-4 lg:mx-0 lg:max-w-3xl lg:items-start lg:space-y-6 lg:py-0"
@@ -52,7 +52,7 @@
 			Audit.
 		</h3>
 	</div>
-	<div class="relative flex-grow overflow-hidden border-4 border-red-600 lg:max-w-4xl">
+	<div class="relative flex-grow overflow-hidden border-4 border-red-600">
 		<h1 class="text-center">This is where Threlte goes.</h1>
 		<!-- Replace this div with your Three.js canvas container. It'll take up the whole width and height of its parent div. -->
 	</div>
