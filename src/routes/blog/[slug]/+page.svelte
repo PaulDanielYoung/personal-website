@@ -20,10 +20,10 @@
 <!-- Main Container -->
 <div class="flex min-h-screen items-start justify-center px-6 py-6 lg:px-8">
 	<!-- Content Container -->
-	<div class="relative w-full max-w-6xl py-3">
+	<div class="relative max-w-6xl">
 		<!-- Card Container -->
 		<div
-			class="absolute z-10 h-full w-[102%] transform rounded-3xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg"
+			class="absolute left-[-1%] top-[-1%] z-10 h-[102%] w-[102%] rounded-3xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg lg:left-[-0.5%] lg:w-[101%]"
 		></div>
 		<!-- Card 2: Pink to Red Gradient -->
 

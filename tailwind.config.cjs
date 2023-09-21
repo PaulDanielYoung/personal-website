@@ -14,6 +14,9 @@ const config = {
 			},
 			lineClamp: {
 				8: '8'
+			},
+			maxWidth: {
+				'11xl': '110rem'
 			}
 		}
 	},

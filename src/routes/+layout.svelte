@@ -34,10 +34,12 @@
 		<div class="flex flex-1 justify-end"></div>
 	</div>
 
-	<div class="flex-grow">
-		<PageTransition url={data.url}>
-			<slot />
-		</PageTransition>
+	<div class="flex flex-grow justify-center">
+		<div class="max-w-11xl">
+			<PageTransition url={data.url}>
+				<slot />
+			</PageTransition>
+		</div>
 	</div>
 	<Footer />
 </div>
