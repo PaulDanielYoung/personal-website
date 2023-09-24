@@ -28,3 +28,5 @@ This is a paragraph.
 3. C
 
 And here is another paragraph.
+
+[Duck Duck Go](https://duckduckgo.com)
