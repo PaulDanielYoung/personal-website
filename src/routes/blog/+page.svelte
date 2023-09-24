@@ -83,7 +83,9 @@
 								>
 							</div>
 							<div class="group relative">
-								<h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">{post.title}</h3>
+								<h3 class="mt-3 line-clamp-1 text-lg font-semibold leading-6 text-gray-900">
+									{post.title}
+								</h3>
 								<p class="mb-4 mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
 									{post.description}
 								</p>

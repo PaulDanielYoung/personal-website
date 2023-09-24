@@ -27,7 +27,7 @@
 	>
 		<a href={featuredPost.slug}>
 			<article
-				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:border-8 lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+				class="h-full rounded-xl border-4 bg-slate-50 p-3 lg:flex lg:transform lg:flex-col lg:p-6 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 			>
 				<div class="relative">
 					<div class="flex items-center justify-between text-xs lg:text-sm">
@@ -46,11 +46,11 @@
 							{/each}
 						</div>
 					</div>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-4xl xl:text-5xl">
+					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-3xl xl:text-4xl">
 						{featuredPost.title}
 					</h2>
 					<p
-						class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600 lg:mt-6 lg:line-clamp-8 lg:text-base xl:text-lg"
+						class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600 lg:mt-6 lg:line-clamp-8 lg:text-base xl:text-base"
 					>
 						{featuredPost.description}
 					</p>
