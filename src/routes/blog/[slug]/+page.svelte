@@ -46,7 +46,7 @@
 					</div>
 
 					<!-- Post -->
-					<div class="mt-10 px-4">
+					<div class="prose mt-6 px-4">
 						<svelte:component this={data.content} />
 					</div>
 				</article>

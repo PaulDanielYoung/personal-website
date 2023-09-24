@@ -9,4 +9,22 @@ categories:
 published: true
 ---
 
-Yessir.
+```ts
+function greet(name: string) {
+	console.log(`Hey ${name}! 👋`);
+}
+```
+
+Here is some p text.
+
+- A
+- B
+- C
+
+This is a paragraph.
+
+1. A
+2. B
+3. C
+
+And here is another paragraph.
