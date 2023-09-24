@@ -12,6 +12,9 @@ const mdsvexOptions = {
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang }));
 			return `{@html \`${html}\` }`;
 		}
+	},
+	layout: {
+		_: './src/mdsvex.svelte'
 	}
 };
 

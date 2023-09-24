@@ -30,3 +30,5 @@ This is a paragraph.
 And here is another paragraph.
 
 [Duck Duck Go](https://duckduckgo.com)
+
+![y](/favicon.png)
