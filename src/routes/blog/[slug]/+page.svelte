@@ -24,7 +24,7 @@
 		class="border-wrapper relative flex w-full max-w-5xl flex-col items-center overflow-hidden rounded-2xl shadow-xl"
 	>
 		<!-- Content Card -->
-		<div class="relative rounded-xl bg-white px-4 py-6 lg:py-8">
+		<div class="relative rounded-xl bg-white p-4 lg:p-6">
 			<div class="flex justify-center">
 				<article>
 					<!-- Title -->
@@ -40,7 +40,7 @@
 					</div>
 
 					<!-- Post -->
-					<div class="prose mt-6 px-4">
+					<div class="prose mt-6">
 						<svelte:component this={data.content} />
 					</div>
 				</article>
