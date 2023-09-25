@@ -12,18 +12,18 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<div class="flex justify-center px-6 pb-2 pt-6 sm:pt-12 lg:px-8">
-	<div class="relative flex w-full max-w-6xl justify-center py-3 lg:justify-normal">
+<div class="mt-3 flex justify-center px-6 lg:mt-6 lg:px-8">
+	<div class="relative flex w-full max-w-6xl justify-center lg:justify-normal">
 		<Breadcrumb title={data.meta.title} />
 	</div>
 </div>
 <!-- Main Container -->
-<div class="flex min-h-screen items-start justify-center px-6 py-6 lg:px-8">
+<div class="mx-6 my-6 flex items-start justify-center lg:mx-8 lg:my-8">
 	<!-- Content Container -->
-	<div class="relative max-w-6xl">
+	<div class="relative max-w-5xl">
 		<!-- Card Container -->
 		<div
-			class="absolute left-[-1%] top-[-1%] z-10 h-[102%] w-[102%] rounded-3xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg lg:left-[-0.5%] lg:w-[101%]"
+			class="absolute left-[-2%] top-[-.5%] z-10 h-[101%] w-[104%] rounded-3xl bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg sm:left-[-1.5%] sm:w-[103%] lg:left-[-1%] lg:w-[102%]"
 		></div>
 		<!-- Card 2: Pink to Red Gradient -->
 
