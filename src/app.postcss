@@ -40,9 +40,15 @@
 
 .prose pre {
 	max-inline-size: 100%;
+	overflow-x: auto; /* This allows for horizontal scrolling */
 	padding: 1rem;
 	border-radius: 8px;
 	tab-size: 2;
+
+	/* Using TailwindCSS's breakpoint for small screens */
+	@screen sm {
+		width: 100%;
+	}
 }
 
 /* Adjusted the top margin for ul and ol to match the paragraph spacing */
