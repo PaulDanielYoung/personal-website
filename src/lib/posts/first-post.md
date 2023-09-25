@@ -26,3 +26,9 @@ You have to make those little noises or it won't work. It just happens - whether
 We have a fantastic little sky! Just make little strokes like that. Isn't that fantastic that you can create an almighty tree that fast? We'll make some happy little bushes here. When you buy that first tube of paint it gives you an artist license. Working it up and down, back and forth.
 
 Put your feelings into it, your heart, it's your world. You can do anything your heart can imagine. Automatically, all of these beautiful, beautiful things will happen. Only think about one thing at a time. Don't get greedy. It all happens automatically.
+
+```ts
+function greet(name: string) {
+	console.log(`Hey ${name}! 👋`);
+}
+```
