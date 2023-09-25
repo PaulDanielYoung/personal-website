@@ -13,7 +13,7 @@
 
 <div class="mt-3 flex justify-center px-6 lg:mt-6 lg:px-8">
 	<div class="relative flex w-full max-w-6xl justify-center lg:justify-normal">
-		<Breadcrumb title={data.meta.title} />
+		<Breadcrumb title={formatDate(data.meta.date)} />
 	</div>
 </div>
 
