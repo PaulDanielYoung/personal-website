@@ -39,15 +39,13 @@
 }
 
 .prose pre {
-	display: block;
-	white-space: pre;
-	-webkit-overflow-scrolling: touch;
-	overflow-x: auto;
-	max-width: 100%;
-	min-width: 100px;
+	max-width: 100%; /* Cap the width */
+	overflow-x: auto; /* Allow horizontal scroll */
 	padding: 1rem;
-	border-radius: 10px;
+	border-radius: 8px;
 	tab-size: 2;
+	white-space: pre-wrap; /* Allows text to wrap to next line */
+	word-wrap: break-word; /* Breaks the word at the end of line */
 }
 
 /* Adjusted the top margin for ul and ol to match the paragraph spacing */
