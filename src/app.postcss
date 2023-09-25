@@ -39,16 +39,13 @@
 }
 
 .prose pre {
-	max-inline-size: 100%;
-	overflow-x: auto; /* This allows for horizontal scrolling */
+	overflow-x: auto; /* Enables horizontal scrolling */
+	white-space: pre-wrap; /* Ensures content wraps normally until the width limit is reached */
+	word-wrap: break-word; /* Allows the content to break onto the next line */
+	max-width: 100%; /* Limits the width to 100% of its container */
 	padding: 1rem;
 	border-radius: 8px;
 	tab-size: 2;
-
-	/* Using TailwindCSS's breakpoint for small screens */
-	@screen sm {
-		width: 100%;
-	}
 }
 
 /* Adjusted the top margin for ul and ol to match the paragraph spacing */
