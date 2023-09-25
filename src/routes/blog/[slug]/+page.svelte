@@ -18,13 +18,13 @@
 </div>
 
 <!-- Main Container -->
-<div class="m-6 flex items-start justify-center lg:m-8">
+<div class="m-4 flex items-start justify-center lg:m-6">
 	<!-- Content Container -->
 	<div
 		class="border-wrapper relative flex w-full max-w-5xl flex-col items-center overflow-hidden rounded-2xl shadow-xl"
 	>
 		<!-- Content Card -->
-		<div class="relative rounded-xl bg-white p-4 lg:p-6">
+		<div class="relative rounded-xl bg-white p-6">
 			<div class="flex justify-center">
 				<article>
 					<!-- Title -->
