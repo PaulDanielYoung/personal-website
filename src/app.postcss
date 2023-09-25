@@ -39,8 +39,12 @@
 }
 
 .prose pre {
-	max-inline-size: 100%;
+	display: block;
+	white-space: pre;
+	-webkit-overflow-scrolling: touch;
 	overflow-x: auto;
+	max-width: 100%;
+	min-width: 100px;
 	padding: 1rem;
 	border-radius: 10px;
 	tab-size: 2;
