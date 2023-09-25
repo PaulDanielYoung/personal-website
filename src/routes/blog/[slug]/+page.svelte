@@ -20,9 +20,11 @@
 <!-- Main Container -->
 <div class="m-6 flex items-start justify-center lg:m-8">
 	<!-- Content Container -->
-	<div class="border-wrapper relative max-w-5xl shadow-xl">
+	<div
+		class="border-wrapper relative flex w-full max-w-5xl flex-col items-center overflow-hidden rounded-2xl shadow-xl"
+	>
 		<!-- Content Card -->
-		<div class="relative rounded-xl bg-white p-4">
+		<div class="relative rounded-xl bg-white px-4 py-6 lg:py-8">
 			<div class="flex justify-center">
 				<article>
 					<!-- Title -->
@@ -49,16 +51,7 @@
 
 <style>
 	.border-wrapper {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: relative;
-
-		box-sizing: border-box;
-
-		width: 100%;
-		border-radius: 1em;
-		background: linear-gradient(to right, #f9a8d4, #d8b4fe, #93c5fd) border-box;
-		border: 5px solid transparent;
+		background: linear-gradient(to right, #f9a8d4, #d8b4fe, #93c5fd);
+		padding: 5px;
 	}
 </style>
