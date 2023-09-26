@@ -3,6 +3,4 @@
 	export let alt: string;
 </script>
 
-<div class="flex justify-center">
-	<img {src} {alt} loading="lazy" class="rounded-xl" />
-</div>
+<img {src} {alt} loading="lazy" class="rounded-xl" />

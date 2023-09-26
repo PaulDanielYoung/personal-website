@@ -13,6 +13,6 @@ published: true
 
 ```ts
 function greet(name: string) {
-	console.log(`Hey lets add some more text here and see wtf happens ${name}! 👋`);
+	console.log(`Hey lets add some more text here and see what happens ${name}! 👋`);
 }
 ```
