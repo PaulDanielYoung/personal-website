@@ -34,7 +34,7 @@
 						<time datetime={featuredPost.date} class="text-gray-500">
 							{formatDate(featuredPost.date)}
 						</time>
-						<div>
+						<div class="space-x-2">
 							{#each featuredPost.categories as category, index}
 								<span
 									class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
@@ -77,7 +77,7 @@
 							<time datetime={secondPost.date} class="block text-sm leading-6 text-gray-600"
 								>{formatDate(secondPost.date)}</time
 							>
-							<div>
+							<div class="space-x-2">
 								{#each secondPost.categories as category, index}
 									<span
 										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
@@ -116,7 +116,7 @@
 							<time datetime={thirdPost.date} class="block text-sm leading-6 text-gray-600"
 								>{formatDate(thirdPost.date)}</time
 							>
-							<div>
+							<div class="space-x-2">
 								{#each thirdPost.categories as category, index}
 									<span
 										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
