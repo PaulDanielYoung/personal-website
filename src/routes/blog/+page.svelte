@@ -9,8 +9,8 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<div class="flex justify-center px-6 pb-2 pt-6 sm:pt-12 lg:px-8">
-	<div class="relative flex w-full max-w-6xl justify-center py-3 lg:justify-normal">
+<div class="mx-6 lg:mx-8">
+	<div class="relative my-4 flex max-w-5xl justify-center lg:my-8 lg:justify-normal">
 		<nav class="flex" aria-label="Breadcrumb">
 			<ol role="list" class="flex space-x-4 rounded-md bg-white px-6 shadow">
 				<li class="flex">
@@ -51,10 +51,8 @@
 			</ol>
 		</nav>
 	</div>
-</div>
 
-<div class="py-4">
-	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+	<div class="mx-auto max-w-7xl">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
 			<p class="mt-2 text-lg leading-8 text-gray-600">The #1 Paul Young blog on the internet.</p>
@@ -62,7 +60,7 @@
 		<div
 			class="mx-auto my-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each data.posts as post, index}
+			{#each data.posts as post}
 				<a href={post.slug}>
 					<article
 						class="flex flex-col items-start justify-between rounded-lg border-4 bg-slate-50 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"

@@ -11,37 +11,31 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<div class="mt-3 flex justify-center px-6 lg:mt-6 lg:px-8">
-	<div class="relative flex w-full max-w-6xl justify-center lg:justify-normal">
-		<Breadcrumb title={formatDate(data.meta.date)} />
-	</div>
+<div class="relative my-4 flex justify-center lg:my-8 lg:justify-normal">
+	<Breadcrumb title={formatDate(data.meta.date)} />
 </div>
 
-<!-- Main Container -->
-<div class="m-4 lg:m-6">
-	<!-- Content Container -->
-	<div class="border-wrapper max-w-5xl rounded-2xl shadow-xl">
-		<!-- Content Card -->
-		<div class="rounded-xl bg-white p-6">
-			<article>
-				<!-- Title -->
-				<div class="mx-auto max-w-md">
-					<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
-					<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
-				</div>
+<div class="border-wrapper max-w-5xl rounded-2xl shadow-xl">
+	<!-- Content Card -->
+	<div class="rounded-xl bg-white p-6">
+		<article>
+			<!-- Title -->
+			<div class="mx-auto max-w-md">
+				<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
+				<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
+			</div>
 
-				<div class="flex justify-center gap-2">
-					{#each data.meta.categories as category}
-						<span class="">&num;{category}</span>
-					{/each}
-				</div>
+			<div class="flex justify-center gap-2">
+				{#each data.meta.categories as category}
+					<span class="">&num;{category}</span>
+				{/each}
+			</div>
 
-				<!-- Post -->
-				<div class="prose mt-6 min-w-0">
-					<svelte:component this={data.content} />
-				</div>
-			</article>
-		</div>
+			<!-- Post -->
+			<div class="prose mt-6 min-w-0">
+				<svelte:component this={data.content} />
+			</div>
+		</article>
 	</div>
 </div>
 
