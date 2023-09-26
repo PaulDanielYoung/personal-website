@@ -22,7 +22,7 @@
 
 <Hero />
 
-<p class="mb-8 text-center text-3xl font-bold tracking-tight sm:text-4xl lg:mb-12">
+<p class="my-8 text-center text-3xl font-bold tracking-tight sm:text-4xl lg:my-12">
 	What I'm thinking about...
 </p>
 

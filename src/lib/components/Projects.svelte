@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 items-start gap-2 px-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-4 lg:px-8">
+<div class="mx-2 grid grid-cols-1 items-start gap-2 md:grid-cols-2 lg:mx-8 lg:grid-cols-3 lg:gap-4">
 	<div class="lg:col-span-2">
 		<img
 			src="https://source.unsplash.com/random/?nature"
