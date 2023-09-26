@@ -52,7 +52,6 @@
 .prose :is(ul, ol) {
 	list-style-type: revert; /* Will use the browser's default based on the list type */
 	padding-left: 1.25rem;
-	margin-top: 0em;
 }
 
 .prose :is(ul, ol) li {
@@ -75,4 +74,11 @@
 
 .prose a:active {
 	color: red; /* Default active link color */
+}
+
+.prose img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1rem; /* or you could use 'xl' with Tailwind directly in the HTML class */
 }
