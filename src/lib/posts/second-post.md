@@ -4,8 +4,7 @@ description: This is the 2nd oldest blog post. It will be besides the featured b
 date: '2023-4-16'
 readingLength: '2 min read'
 categories:
-  - sveltekit
-  - svelte
+  - Data Analytics
 imageSrc: '/cia-logo.png'
 imageAlt: 'CIA Logo'
 published: true

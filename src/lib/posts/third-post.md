@@ -4,8 +4,8 @@ description: This is the featured blog post. It is the main draw and the most re
 date: '2023-4-18'
 readingLength: '3 min read'
 categories:
-  - sveltekit
-  - svelte
+  - SvelteKit
+  - Svelte
 imageSrc: '/test.png'
 imageAlt: 'Test'
 published: true

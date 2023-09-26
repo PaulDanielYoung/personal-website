@@ -4,8 +4,7 @@ description: This is the 3rd oldest blog post. It will be besides the other two 
 date: '2023-4-14'
 readingLength: '1 min read'
 categories:
-  - sveltekit
-  - svelte
+  - Audit
 imageSrc: '/favicon.png'
 imageAlt: 'Svelte Logo'
 published: true

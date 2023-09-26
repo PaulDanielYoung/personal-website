@@ -35,11 +35,9 @@
 							{formatDate(featuredPost.date)}
 						</time>
 						<div class="space-x-2">
-							{#each featuredPost.categories as category, index}
+							{#each featuredPost.categories as category}
 								<span
-									class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
-										index
-									)}"
+									class="relative z-10 rounded-full bg-indigo-50 px-3 py-1.5 font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
 								>
 									{category}
 								</span>
@@ -78,11 +76,9 @@
 								>{formatDate(secondPost.date)}</time
 							>
 							<div class="space-x-2">
-								{#each secondPost.categories as category, index}
+								{#each secondPost.categories as category}
 									<span
-										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
-											index
-										)}"
+										class="relative z-10 rounded-full bg-indigo-50 px-3 py-1.5 font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
 									>
 										{category}
 									</span>
@@ -117,11 +113,9 @@
 								>{formatDate(thirdPost.date)}</time
 							>
 							<div class="space-x-2">
-								{#each thirdPost.categories as category, index}
+								{#each thirdPost.categories as category}
 									<span
-										class="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 {getBgColor(
-											index
-										)}"
+										class="relative z-10 rounded-full bg-indigo-50 px-3 py-1.5 font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
 									>
 										{category}
 									</span>

@@ -63,7 +63,7 @@
 			{#each data.posts as post}
 				<a href={post.slug}>
 					<article
-						class="flex flex-col items-start justify-between rounded-lg border-4 bg-slate-50 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
+						class="flex flex-col items-start justify-between rounded-xl border-4 bg-slate-50 lg:transition lg:hover:scale-101 lg:hover:shadow-xl"
 					>
 						<div class="relative w-full">
 							<img
@@ -78,7 +78,7 @@
 								<div class="space-x-1">
 									{#each post.categories as category}
 										<span
-											class="relative z-10 rounded-full bg-red-50 px-3 py-1.5 font-medium text-gray-600"
+											class="relative z-10 rounded-full bg-indigo-50 px-3 py-1.5 font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
 										>
 											{category}
 										</span>

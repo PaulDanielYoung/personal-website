@@ -1,4 +1,4 @@
-export type Categories = 'sveltekit' | 'svelte';
+export type Categories = 'Audit' | 'Data Analytics' | 'SvelteKit' | 'Svelte';
 
 export type Post = {
 	title: string;
