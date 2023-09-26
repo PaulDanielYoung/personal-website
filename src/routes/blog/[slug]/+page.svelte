@@ -18,33 +18,29 @@
 </div>
 
 <!-- Main Container -->
-<div class="m-4 flex items-start justify-center lg:m-6">
+<div class="m-4 lg:m-6">
 	<!-- Content Container -->
-	<div
-		class="border-wrapper relative flex w-full max-w-5xl flex-col items-center overflow-hidden rounded-2xl shadow-xl"
-	>
+	<div class="border-wrapper max-w-5xl rounded-2xl shadow-xl">
 		<!-- Content Card -->
-		<div class="relative rounded-xl bg-white p-6">
-			<div class="flex justify-center">
-				<article>
-					<!-- Title -->
-					<div class="mx-auto max-w-md">
-						<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
-						<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
-					</div>
+		<div class="rounded-xl bg-white p-6">
+			<article>
+				<!-- Title -->
+				<div class="mx-auto max-w-md">
+					<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
+					<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
+				</div>
 
-					<div class="flex justify-center gap-2">
-						{#each data.meta.categories as category}
-							<span class="">&num;{category}</span>
-						{/each}
-					</div>
+				<div class="flex justify-center gap-2">
+					{#each data.meta.categories as category}
+						<span class="">&num;{category}</span>
+					{/each}
+				</div>
 
-					<!-- Post -->
-					<div class="prose mt-6">
-						<svelte:component this={data.content} />
-					</div>
-				</article>
-			</div>
+				<!-- Post -->
+				<div class="prose mt-6 min-w-0">
+					<svelte:component this={data.content} />
+				</div>
+			</article>
 		</div>
 	</div>
 </div>

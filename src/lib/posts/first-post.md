@@ -29,6 +29,8 @@ Put your feelings into it, your heart, it's your world. You can do anything your
 
 ```ts
 function greet(name: string) {
-	console.log(`Hey ${name}! 👋`);
+	console.log(
+		`Hey ${name}! I'm going to add some more text here, to see how the responsiveness changes. 👋`
+	);
 }
 ```
