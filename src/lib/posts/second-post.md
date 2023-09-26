@@ -6,6 +6,8 @@ readingLength: '2 min read'
 categories:
   - sveltekit
   - svelte
+imageSrc: '/cia-logo.png'
+imageAlt: 'CIA Logo'
 published: true
 ---
 

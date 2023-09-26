@@ -6,6 +6,8 @@ readingLength: '3 min read'
 categories:
   - sveltekit
   - svelte
+imageSrc: '/test.png'
+imageAlt: 'Test'
 published: true
 ---
 

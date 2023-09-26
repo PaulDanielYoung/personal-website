@@ -6,6 +6,8 @@ readingLength: '1 min read'
 categories:
   - sveltekit
   - svelte
+imageSrc: '/favicon.png'
+imageAlt: 'Svelte Logo'
 published: true
 ---
 
