@@ -1,5 +1,5 @@
 <div
-	class="flex h-[85vh] flex-col items-center gap-4 px-6 py-6 lg:flex-row lg:justify-between lg:gap-8 lg:px-8 lg:py-0"
+	class="mx-2 my-6 flex h-[85vh] flex-col items-center gap-4 lg:mx-8 lg:my-0 lg:flex-row lg:justify-between lg:gap-8"
 >
 	<div
 		class="mx-auto max-w-3xl flex-grow-0 flex-col items-center space-y-2 py-4 lg:mx-0 lg:max-w-3xl lg:items-start lg:space-y-6 lg:py-0"

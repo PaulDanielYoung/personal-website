@@ -9,7 +9,7 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<div class="mx-6 lg:mx-8">
+<div class="mx-2 lg:mx-8">
 	<div class="relative my-4 flex max-w-5xl justify-center lg:my-8 lg:justify-normal">
 		<nav class="flex" aria-label="Breadcrumb">
 			<ol role="list" class="flex space-x-4 rounded-md bg-white px-6 shadow">
