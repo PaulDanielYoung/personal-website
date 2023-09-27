@@ -38,7 +38,7 @@ We have a fantastic little sky! Just make little strokes like that. Isn't that f
 
 Put your feelings into it, your heart, it's your world. You can do anything your heart can imagine. Automatically, all of these beautiful, beautiful things will happen. Only think about one thing at a time. Don't get greedy. It all happens automatically.
 
-```ts
+```ts:lib/mdx.ts
 function greet(name: string) {
 	console.log(
 		`Hey ${name}! I'm going to add some more text here, to see how the responsiveness changes. 👋`

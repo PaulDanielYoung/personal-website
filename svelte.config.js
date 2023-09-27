@@ -5,22 +5,35 @@ import shiki from 'shiki';
 import remarkUnwrapImages from 'remark-unwrap-images';
 import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
+import rehypeCodeTitles from 'rehype-code-titles';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
+	remarkPlugins: [remarkUnwrapImages, remarkToc],
+	rehypePlugins: [rehypeSlug, rehypeCodeTitles],
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
+			const [actualLang, title] = lang.split(':'); // Extracts actualLang and title
+
 			const highlighter = await shiki.getHighlighter({ theme: 'one-dark-pro' });
-			const html = escapeSvelte(highlighter.codeToHtml(code, { lang }));
-			return `{@html \`${html}\` }`;
+			const html = escapeSvelte(
+				highlighter.codeToHtml(code, {
+					lang: actualLang
+				})
+			);
+
+			// Wraps the code and title as per your desired format
+			const titledHtml = title
+				? `<div class="rehype-code-title">${title}</div><pre><code class="language-${actualLang}">${html}</code></pre>`
+				: `<pre><code class="language-${actualLang}">${html}</code></pre>`;
+
+			return `{@html \`${titledHtml}\` }`;
 		}
 	},
 	layout: {
 		_: './src/mdsvex.svelte'
-	},
-	remarkPlugins: [remarkUnwrapImages, remarkToc],
-	rehypePlugins: [rehypeSlug]
+	}
 };
 
 /** @type {import('@sveltejs/kit').Config} */
