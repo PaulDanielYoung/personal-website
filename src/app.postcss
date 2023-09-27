@@ -48,9 +48,8 @@
 	tab-size: 2;
 }
 
-/* Adjusted the top margin for ul and ol to match the paragraph spacing */
 .prose :is(ul, ol) {
-	list-style-type: revert; /* Will use the browser's default based on the list type */
+	list-style-type: revert;
 	padding-left: 1.25rem;
 }
 
@@ -87,4 +86,9 @@
 
 .prose #table-of-contents + ul a {
 	text-decoration: none;
+}
+
+.prose #table-of-contents + ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
