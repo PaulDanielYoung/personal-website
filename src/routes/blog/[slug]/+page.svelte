@@ -17,7 +17,7 @@
 
 <div class="border-wrapper mx-4 mb-4 max-w-5xl rounded-2xl shadow-xl lg:mx-8 lg:mb-8">
 	<!-- Content Card -->
-	<div class="rounded-xl bg-white p-6">
+	<div class="rounded-xl bg-white px-8 py-6">
 		<article>
 			<!-- Title -->
 			<div class="mx-auto max-w-md">
