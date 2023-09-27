@@ -36,13 +36,15 @@
 <Toaster />
 
 <div class="mx-2 my-8 flex lg:mx-8 lg:my-12">
-	<div class="mx-auto grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
+	<div class="mx-auto grid grid-cols-1 gap-6 lg:grid-cols-12 lg:gap-8">
 		<div class="max-w-xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
-			<h2 class="block lg:inline xl:block">Want updates?</h2>
-			<p class="block lg:inline xl:block">Sign up for my newsletter.</p>
+			<h2 class="lg:text- block text-center lg:inline lg:text-left xl:block">
+				Want updates?<span class="hidden lg:inline xl:hidden"><br /></span>
+			</h2>
+			<p class="block text-center lg:inline lg:text-left xl:block">Sign up for my newsletter.</p>
 		</div>
 		<form method="POST" use:enhance class="w-full max-w-md lg:col-span-5 lg:pt-2">
-			<div class="flex gap-x-4">
+			<div class="flex justify-center gap-x-4">
 				<label for="email" class="sr-only">Email address</label>
 				<div class="relative">
 					<input
@@ -65,7 +67,7 @@
 					Subscribe
 				</button>
 			</div>
-			<p class="mt-4 text-sm leading-6 text-gray-900">
+			<p class="mt-2 text-center text-sm leading-6 text-gray-900">
 				You will be notified when a new post or project is added.
 			</p>
 		</form>
