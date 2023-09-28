@@ -1,5 +1,5 @@
 <footer class="bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300">
-	<div class="mx-4 py-4 md:flex md:items-center md:justify-between lg:mx-8">
+	<div class="mx-3 py-4 md:flex md:items-center md:justify-between lg:mx-8">
 		<div class="flex justify-center space-x-6 md:order-2">
 			<a
 				href="https://www.linkedin.com/in/paul-daniel-young"

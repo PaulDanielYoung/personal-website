@@ -11,13 +11,13 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<div class="relative mx-4 my-4 flex justify-center lg:mx-8 lg:my-8 lg:justify-normal">
+<div class="relative mx-3 my-4 flex justify-center lg:mx-8 lg:my-8 lg:justify-normal">
 	<Breadcrumb title={formatDate(data.meta.date)} />
 </div>
 
-<div class="border-wrapper mx-4 mb-4 max-w-5xl rounded-2xl shadow-xl lg:mx-8 lg:mb-8">
+<div class="border-wrapper mx-3 mb-4 max-w-4xl rounded-2xl shadow-xl lg:mx-8 lg:mb-8">
 	<!-- Content Card -->
-	<div class="rounded-xl bg-white px-8 py-6">
+	<div class="rounded-xl bg-white p-4">
 		<article>
 			<!-- Title -->
 			<div class="mx-auto max-w-md">
