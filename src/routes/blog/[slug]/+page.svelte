@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
+	import Newsletter from '$lib/components/Newsletter.svelte';
 	import { formatDate } from '$lib/utils';
 
 	export let data;
@@ -20,15 +21,11 @@
 	<div class="rounded-xl bg-white p-4">
 		<article>
 			<!-- Title -->
-			<div class="mx-auto max-w-md">
-				<h1 class="mb-2 text-center text-2xl font-bold">{data.meta.title}</h1>
-				<p class="mb-2 text-center text-gray-500">Posted on: {formatDate(data.meta.date)}</p>
-			</div>
-
-			<div class="flex justify-center gap-2">
-				{#each data.meta.categories as category}
-					<span class="">&num;{category}</span>
-				{/each}
+			<div class="mx-auto my-4 max-w-md lg:my-8">
+				<h1 class=" text-center text-3xl font-bold lg:text-4xl">{data.meta.title}</h1>
+				<p class="mt-2 text-center text-sm text-gray-500 lg:text-base">
+					Posted on: {formatDate(data.meta.date)}
+				</p>
 			</div>
 
 			<!-- Post -->
@@ -38,6 +35,8 @@
 		</article>
 	</div>
 </div>
+
+<Newsletter {data} />
 
 <style>
 	.border-wrapper {

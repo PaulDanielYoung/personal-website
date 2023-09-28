@@ -18,6 +18,10 @@ published: true
 
 We have no limits to our world. We're only limited by our imagination. You can get away with a lot. It's amazing what you can do with a little love in your heart. You need to have a very firm paint to do this. The first step to doing anything is to believe you can do it. See it finished in your mind before you ever start.
 
+![cia-logo](/test.png)
+
+We have no limits to our world. We're only limited by our imagination. You can get away with a lot. It's amazing what you can do with a little love in your heart. You need to have a very firm paint to do this. The first step to doing anything is to believe you can do it. See it finished in your mind before you ever start.
+
 ## History
 
 So often we avoid running water, and running water is a lot of fun. I sincerely wish for you every possible joy life could bring. Zip. That easy. Just a happy little shadow that lives in there. It's life. It's interesting. It's fun. Just let go - and fall like a little waterfall. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
