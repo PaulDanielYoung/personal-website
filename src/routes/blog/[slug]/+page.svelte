@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
-	import Newsletter from '$lib/components/Newsletter.svelte';
 	import { formatDate } from '$lib/utils';
 
 	export let data;
@@ -16,7 +15,7 @@
 	<Breadcrumb title={formatDate(data.meta.date)} />
 </div>
 
-<div class="border-wrapper mx-3 mb-4 max-w-4xl rounded-2xl shadow-xl lg:mx-8 lg:mb-8">
+<div class="border-wrapper mx-3 mb-16 max-w-4xl rounded-2xl shadow-xl lg:mx-8 lg:mb-24">
 	<!-- Content Card -->
 	<div class="rounded-xl bg-white p-4">
 		<article>
@@ -35,8 +34,6 @@
 		</article>
 	</div>
 </div>
-
-<Newsletter {data} />
 
 <style>
 	.border-wrapper {

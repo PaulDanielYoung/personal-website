@@ -69,6 +69,10 @@
 	font-size: 14px;
 }
 
+.prose li {
+	font-size: 0.875rem;
+}
+
 .prose :is(ul, ol) {
 	list-style-type: revert;
 	padding-left: 1.25rem;
@@ -135,6 +139,9 @@
 		@apply text-base;
 	}
 	.prose code {
+		@apply text-base;
+	}
+	.prose li {
 		@apply text-base;
 	}
 }
