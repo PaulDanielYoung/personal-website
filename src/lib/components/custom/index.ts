@@ -1,2 +1,3 @@
 import img from './img.svelte';
-export { img };
+import a from './a.svelte';
+export { img, a };
