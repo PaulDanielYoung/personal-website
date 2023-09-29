@@ -6,7 +6,8 @@
 .prose h2 {
 	font-size: 1.25rem;
 	font-weight: bold;
-	margin-top: 0rem;
+	margin-top: 1.5rem;
+	margin-bottom: -0.75rem;
 }
 
 .prose h3 {
@@ -79,8 +80,7 @@
 }
 
 .prose :is(ul, ol) li {
-	margin-block: 0.1rem;
-	padding-inline-start: 0rem;
+	margin-block: 0.3rem;
 }
 
 .prose ul li::before {
@@ -112,6 +112,9 @@
 	border-radius: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	max-width: 100%;
+	max-height: 750px;
+	object-fit: cover;
 }
 
 .prose img:first-of-type {
@@ -133,15 +136,9 @@
 	margin-left: -1rem;
 }
 
-.prose #table-of-contents + ul ul > li::before {
-	content: '🚀';
-	padding-right: 0.5rem;
-	margin-left: -1rem;
-}
-
 @screen lg {
 	.prose h2 {
-		@apply text-2xl;
+		@apply -mb-2 mt-8 text-2xl;
 	}
 	.prose h3 {
 		@apply text-xl;
@@ -165,15 +162,10 @@
 		@apply pl-4;
 	}
 	.prose :is(ul, ol) li {
-		@apply my-0.5 ml-0.5;
+		@apply my-1;
 	}
 	.prose #table-of-contents + ul > li::before {
 		content: '📌';
-		padding-right: 0.8rem;
-		margin-left: -1.5rem;
-	}
-	.prose #table-of-contents + ul ul > li::before {
-		content: '🚀';
 		padding-right: 0.8rem;
 		margin-left: -1.5rem;
 	}

@@ -26,15 +26,15 @@ We have no limits to our world. We're only limited by our imagination. You can g
 
 So often we avoid running water, and running water is a lot of fun. I sincerely wish for you every possible joy life could bring. Zip. That easy. Just a happy little shadow that lives in there. It's life. It's interesting. It's fun. Just let go - and fall like a little waterfall. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-### Discovery
+## Discovery
 
 Decide where your cloud lives. Maybe he lives right in here. For the lack of a better word I call them hangy downs. A beautiful little sunset. We'll put all the little clouds in and let them dance around and have fun. Let's put some happy little bushes on the other side now.
 
-### Name and Symbol
+## Name and Symbol
 
 You have to make those little noises or it won't work. It just happens - whether or not you worried about it or tried to plan it. I want everybody to be happy. That's what it's all about. A happy cloud.
 
-### Planet X Discovered
+## Planet X Discovered
 
 We have a fantastic little sky! Just make little strokes like that. Isn't that fantastic that you can create an almighty tree that fast? We'll make some happy little bushes here. When you buy that first tube of paint it gives you an artist license. Working it up and down, back and forth.
 
