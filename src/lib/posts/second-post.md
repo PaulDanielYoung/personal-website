@@ -1,12 +1,12 @@
 ---
 title: 2nd Oldest Post
 description: This is the 2nd oldest blog post. It will be besides the featured blog post, and the previous blog post featured on the main page. This is exciting, because I'm figuring out how to dynamically display data through Svelte and SvelteKit. I am going to need to add more lines to this description, in order to see what the behavior is. Let's just keep adding text here until we are satisfied with the length.
-date: '2023-4-16'
+date: '2023-09-19'
 readingLength: '2 min read'
 categories:
   - Data Analytics
-imageSrc: '/cia-logo.png'
-imageAlt: 'CIA Logo'
+imageSrc: '/favicon.png'
+imageAlt: 'Certified-Internal-Auditor-Logo'
 published: true
 ---
 

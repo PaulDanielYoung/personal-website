@@ -1,26 +1,22 @@
 ---
-title: 3rd Oldest Post
+title: My thoughts on the Certified Internal Auditor QISA Challenge Exam
 description: This is the 3rd oldest blog post. It will be besides the other two more recent blog posts. I am adding more to this sentence to see how the card reacts when I add more information. When I add more text to this, the card will fill out and completely take up the height of the featured post. What happens when I add more text to this card?
-date: '2023-4-14'
-readingLength: '1 min read'
+date: '2023-09-14'
+readingLength: '15 min read'
 categories:
-  - Audit
-imageSrc: '/favicon.png'
-imageAlt: 'Svelte Logo'
+  - Internal Audit
+imageSrc: '/My-thoughts-on-the-Certified-Internal-Auditor-QISA-Challenge-Exam/Institute-of-Internal-Auditors-Logo.png'
+imageAlt: 'Certified-Internal-Auditor-Logo'
 published: true
 ---
 
-![cia-logo](/cia-logo.png)
+![Certified-Internal-Auditor-Logo](/My-thoughts-on-the-Certified-Internal-Auditor-QISA-Challenge-Exam/Certified-Internal-Auditor-Logo.png)
 
 ## Table of Contents
 
-## Markdown
+## Introduction
 
-We have no limits to our world. We're only limited by our imagination. You can get away with a lot. It's amazing what you can do with a little love in your heart. You need to have a very firm paint to do this. The first step to doing anything is to believe you can do it. See it finished in your mind before you ever start.
-
-![cia-logo](/test.png)
-
-We have no limits to our world. We're only limited by our imagination. You can get away with a lot. It's amazing what you can do with a little love in your heart. You need to have a very firm paint to do this. The first step to doing anything is to believe you can do it. See it finished in your mind before you ever start.
+About a couple of months ago, I came across the [Certified Internal Auditor (CIA) Challenge Exam for Qualified Information System Auditors (QISA)](https://www.theiia.org/en/promotions/certifications/qisa/qisa-cia-challenge-exam/).
 
 ## History
 

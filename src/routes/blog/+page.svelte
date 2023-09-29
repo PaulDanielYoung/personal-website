@@ -69,7 +69,7 @@
 							<img
 								src={post.imageSrc}
 								alt={post.imageAlt}
-								class="aspect-[16/9] w-full rounded-t-lg bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+								class="aspect-[16/9] w-full rounded-t-lg bg-gray-100 object-contain sm:aspect-[2/1] lg:aspect-[3/2]"
 							/>
 						</div>
 						<div class="w-full px-4">

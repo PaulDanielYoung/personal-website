@@ -20,7 +20,7 @@
 	<div class="rounded-xl bg-white p-4">
 		<article>
 			<!-- Title -->
-			<div class="mx-auto my-4 max-w-md lg:my-8">
+			<div class="mx-auto my-4 max-w-lg lg:my-8">
 				<h1 class=" text-center text-3xl font-bold lg:text-4xl">{data.meta.title}</h1>
 				<p class="mt-2 text-center text-sm text-gray-500 lg:text-base">
 					Posted on: {formatDate(data.meta.date)}
