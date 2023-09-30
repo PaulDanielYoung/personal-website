@@ -15,7 +15,7 @@
 	<Breadcrumb title={formatDate(data.meta.date)} />
 </div>
 
-<div class="border-wrapper mx-3 mb-16 max-w-4xl rounded-2xl shadow-xl lg:mx-8 lg:mb-24">
+<div class="border-wrapper mx-2 mb-16 max-w-4xl rounded-2xl shadow-xl lg:mx-8 lg:mb-24">
 	<!-- Content Card -->
 	<div class="rounded-xl bg-white p-4">
 		<article>

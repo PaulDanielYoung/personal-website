@@ -21,7 +21,7 @@
 	}
 </script>
 
-<div class="mx-3 lg:mx-8">
+<div class="mx-2 lg:mx-8">
 	<div
 		class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 space-y-4 lg:max-w-none lg:grid-cols-2 lg:space-y-0"
 	>

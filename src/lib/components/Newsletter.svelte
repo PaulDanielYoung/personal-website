@@ -35,7 +35,7 @@
 
 <Toaster />
 
-<div class="mx-3 mb-12 mt-8 flex lg:mx-8 lg:mb-16 lg:mt-12">
+<div class="mx-2 mb-12 mt-8 flex lg:mx-8 lg:mb-16 lg:mt-12">
 	<div class="mx-auto grid grid-cols-1 gap-6 lg:grid-cols-12 lg:gap-8">
 		<div class="max-w-xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:col-span-7">
 			<h2 class="lg:text- block text-center lg:inline lg:text-left xl:block">
