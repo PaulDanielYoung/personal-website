@@ -1,8 +1,8 @@
 ---
 title: My thoughts on the Certified Internal Auditor QISA Challenge Exam
-description: Read about my experience of tackling the Certified Internal Auditor QISA Challenge Exam, a gateway for CISA holders to earn the CIA designation. From initial preparation through exam day insights to post-exam reflections, discover the strategies that led me to success and how this step has poised me for new ventures in the Internal Audit landscape.
+description: About a couple of months ago, I came across the Certified Internal Auditor (CIA) Challenge Exam for Qualified Information System Auditors (QISA). Through this route, active CISA holders can obtain their CIA designation after successfully passing a one-part examination focusing on content not covered on your Certified Information Systems Auditor (CISA) exam.
 date: '2023-09-14'
-readingLength: '10 min read'
+readingLength: '5 min read'
 categories:
   - Internal Audit
 imageSrc: '/My-thoughts-on-the-Certified-Internal-Auditor-QISA-Challenge-Exam/Institute-of-Internal-Auditors-Logo.png'

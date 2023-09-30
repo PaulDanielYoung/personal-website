@@ -48,8 +48,7 @@
 		<h3
 			class="max-w-md text-center text-sm text-gray-600 sm:max-w-none md:text-base lg:max-w-lg lg:text-left lg:text-lg xl:max-w-xl 2xl:max-w-2xl"
 		>
-			I'm currently a <strong>Founder at Graphist</strong>, exploring how to innovate Internal
-			Audit.
+			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
 	<div class="relative flex-grow overflow-hidden border-4 border-red-600">
