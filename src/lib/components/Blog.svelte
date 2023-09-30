@@ -44,7 +44,9 @@
 							{/each}
 						</div>
 					</div>
-					<h2 class="mt-2 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-3xl xl:text-4xl">
+					<h2
+						class="mt-2 line-clamp-2 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-3xl xl:text-4xl"
+					>
 						{featuredPost.title}
 					</h2>
 					<p
@@ -85,7 +87,7 @@
 								{/each}
 							</div>
 						</div>
-						<h2 class="mt-2 text-lg font-semibold text-gray-900">
+						<h2 class="mt-2 line-clamp-2 text-lg font-semibold text-gray-900">
 							{secondPost.title}
 						</h2>
 						<p class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
@@ -122,7 +124,7 @@
 								{/each}
 							</div>
 						</div>
-						<h2 class="mt-2 text-lg font-semibold text-gray-900">
+						<h2 class="mt-2 line-clamp-2 text-lg font-semibold text-gray-900">
 							{thirdPost.title}
 						</h2>
 						<p class="mt-2 line-clamp-3 text-sm leading-6 text-gray-600">
