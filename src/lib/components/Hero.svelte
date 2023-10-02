@@ -5,7 +5,7 @@
 <div
 	class="mx-2 my-4 flex h-[85vh] flex-col items-center gap-4 lg:mx-8 lg:my-0 lg:flex-row lg:justify-between lg:gap-8"
 >
-	<div class=" space-y-2 border-4 border-blue-500 lg:space-y-6">
+	<div class="flex h-1/3 flex-col justify-center space-y-2 lg:h-auto lg:justify-start lg:space-y-6">
 		<h1
 			class="text-center text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-left lg:text-7xl 2xl:text-8xl"
 		>
@@ -48,13 +48,14 @@
 			>.
 		</h2>
 		<h3
-			class=" break-normal text-center text-sm text-gray-600 sm:text-base lg:max-w-md lg:text-left lg:text-lg xl:max-w-lg 2xl:max-w-none"
+			class=" break-normal text-center text-sm text-gray-600 sm:text-base lg:max-w-lg lg:text-left lg:text-lg xl:max-w-none"
 		>
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
-	<div class="flex-grow border-4 border-red-600">
-		<h1 class="text-center">This is where Threlte goes.</h1>
-		<!-- Replace this div with your Three.js canvas container. It'll take up the whole width and height of its parent div. -->
+	<div
+		class="mb-40 w-full max-w-2xl flex-grow sm:mb-20 lg:mb-0 lg:h-1/2 lg:w-1/3 lg:max-w-none xl:h-2/3 2xl:h-4/5"
+	>
+		<App />
 	</div>
 </div>
