@@ -60,7 +60,7 @@ I was definitely worried about the amount of time remaining as I tackled the las
 
 ## Post-Exam Reflections & What's Next
 
-I hope my journey and insights into the CIA QISA Challenge Exam will prove helpful to those considering this step in their professional journey. If you have any questions or would like to share your own experiences, I'd love to hear from you. Feel free to reach out via email at pauldanielyoung@outlook.com. Also, if you found this post informative, consider sharing it with your network.
+I hope my journey and insights into the CIA QISA Challenge Exam will prove helpful to those considering this step in their professional journey. If you have any questions or would like to share your own experiences, I'd love to hear from you. Feel free to reach out via email at pauldanielyoung@outlook.com\. Also, if you found this post informative, consider sharing it with your network.
 
 Going forward, I will continue exploring how I can innovate in the realm of Internal Audit. Stay tuned for more reflections and insights.
 
