@@ -53,9 +53,7 @@
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
-	<div
-		class="mb-40 w-full max-w-2xl flex-grow sm:mb-20 lg:mb-0 lg:h-1/2 lg:w-1/3 lg:max-w-none xl:h-2/3 2xl:h-4/5"
-	>
+	<div class="h-full w-full max-w-2xl flex-grow lg:h-1/2 lg:w-1/3 lg:max-w-none xl:h-2/3 2xl:h-4/5">
 		<App />
 	</div>
 </div>
