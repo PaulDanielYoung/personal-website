@@ -3,11 +3,11 @@
 >
 	<div class=" space-y-2 border-4 border-blue-500 lg:space-y-6">
 		<h1
-			class="text-center text-5xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-left lg:text-7xl xl:text-8xl"
+			class="text-center text-5xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-left lg:text-7xl 2xl:text-8xl"
 		>
 			Hi, I'm Paul
 		</h1>
-		<h2 class="text-center text-lg text-gray-600 md:text-xl lg:text-left lg:text-2xl xl:text-3xl">
+		<h2 class="text-center text-lg text-gray-600 md:text-xl lg:text-left lg:text-2xl 2xl:text-3xl">
 			I think about
 			<span class="relative whitespace-nowrap text-pink-600"
 				><svg
@@ -44,7 +44,7 @@
 			>.
 		</h2>
 		<h3
-			class=" break-normal text-center text-sm text-gray-600 md:text-base lg:max-w-md lg:text-left lg:text-lg xl:max-w-none"
+			class=" break-normal text-center text-sm text-gray-600 md:text-base lg:max-w-md lg:text-left xl:max-w-lg xl:text-lg 2xl:max-w-none"
 		>
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
