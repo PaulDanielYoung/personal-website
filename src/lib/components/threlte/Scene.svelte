@@ -1,13 +1,7 @@
 <script lang="ts">
 	// @ts-nocheck
 	import { T, useFrame } from '@threlte/core';
-	import {
-		MeshLineMaterial,
-		MeshLineGeometry,
-		Grid,
-		OrbitControls,
-		useTexture
-	} from '@threlte/extras';
+	import { MeshLineMaterial, MeshLineGeometry, Grid, OrbitControls } from '@threlte/extras';
 	import { Vector3, CatmullRomCurve3, Color } from 'three';
 
 	// create a smooth curve from 4 points
@@ -55,10 +49,16 @@
 <T.PerspectiveCamera
 	makeDefault
 	on:create={({ ref }) => {
-		ref.position.set(15, 7.5, 10);
+		ref.position.set(20, 5, 0);
 	}}
 >
-	<OrbitControls autoRotate={true} autoRotateSpeed={2} enableDamping target.y={2} />
+	<OrbitControls
+		autoRotate={true}
+		autoRotateSpeed={1.5}
+		enableDamping
+		target.y={2}
+		enabled={false}
+	/>
 </T.PerspectiveCamera>
 
 <Grid gridSize={[10, 10]} cellColor={'#46536b'} sectionThickness={0} />
