@@ -5,9 +5,7 @@
 
 <div class="relative h-full w-full">
 	<div class="absolute h-full w-full" />
-	<div class="h-full w-full">
-		<Canvas>
-			<Scene />
-		</Canvas>
-	</div>
+	<Canvas>
+		<Scene />
+	</Canvas>
 </div>
