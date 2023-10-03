@@ -3,10 +3,10 @@
 </script>
 
 <div
-	class="mx-2 my-4 flex h-[85vh] flex-col items-center border-2 border-green-600 lg:mx-8 lg:my-0 lg:flex-row lg:justify-between"
+	class="mx-2 my-4 flex h-[85vh] flex-col items-center lg:mx-8 lg:my-0 lg:flex-row lg:justify-between"
 >
 	<div
-		class="flex h-1/3 w-full flex-col justify-center space-y-2 border-4 border-blue-600 lg:h-full lg:max-w-lg lg:space-y-6 2xl:max-w-2xl"
+		class="flex h-1/3 w-full flex-col justify-center space-y-2 lg:h-full lg:max-w-lg lg:space-y-6 2xl:max-w-2xl"
 	>
 		<h1
 			class="text-center text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-left lg:text-7xl 2xl:text-8xl"
@@ -55,7 +55,7 @@
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
-	<div class="h-full w-full border-4 border-red-600">
+	<div class="h-full w-full">
 		<App />
 	</div>
 </div>
