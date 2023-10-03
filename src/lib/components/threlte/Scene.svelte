@@ -30,6 +30,11 @@
 		// shrink and grow the line width
 		width = Math.sin(dashOffset * 2) / 5 + 0.3;
 	});
+
+	function handleRef(ref) {
+		// Do something with the ref if needed
+		console.log(ref);
+	}
 </script>
 
 <T.Mesh position.y={3} scale={2}>
@@ -57,8 +62,8 @@
 		autoRotateSpeed={1.5}
 		enableDamping
 		target.y={2}
-		enabled={false}
+		enableZoom={false}
 	/>
 </T.PerspectiveCamera>
 
-<Grid gridSize={[10, 10]} cellColor={'#46536b'} sectionThickness={0} />
+<Grid gridSize={[10, 10]} cellColor={'#46536b'} sectionThickness={0} ref={handleRef} />
