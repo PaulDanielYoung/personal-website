@@ -30,21 +30,7 @@
 		// shrink and grow the line width
 		width = Math.sin(dashOffset * 2) / 5 + 0.3;
 	});
-
-	let startY = 0;
-
-	function handleTouchStart(event) {
-		startY = event.touches[0].clientY;
-	}
-
-	function handleTouchMove(event) {
-		const deltaY = startY - event.touches[0].clientY;
-		window.scrollBy(0, deltaY);
-		startY = event.touches[0].clientY;
-	}
 </script>
-
-<svelte:window on:touchstart={handleTouchStart} on:touchmove={handleTouchMove} />
 
 <T.Mesh position.y={3} scale={2}>
 	<MeshLineGeometry {points} />
