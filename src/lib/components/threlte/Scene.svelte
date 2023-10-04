@@ -92,6 +92,7 @@
 		enableDamping
 		target.y={2}
 		enableZoom={false}
+		enablePan={false}
 	/>
 </T.PerspectiveCamera>
 
