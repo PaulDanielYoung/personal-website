@@ -22,7 +22,9 @@
 
 <Hero />
 
-<p class="mx-2 my-8 text-center text-2xl font-bold tracking-tight sm:text-4xl lg:mx-8 lg:my-12">
+<p
+	class="mx-2 my-8 text-center text-2xl font-bold tracking-tight sm:text-3xl lg:mx-8 lg:my-12 lg:text-4xl"
+>
 	What I'm thinking about...
 </p>
 
@@ -39,7 +41,9 @@
 	</a>
 </div>
 
-<p class="mx-2 my-8 text-center text-2xl font-bold tracking-tight sm:text-4xl lg:mx-8 lg:my-12">
+<p
+	class="mx-2 my-8 text-center text-2xl font-bold tracking-tight sm:text-3xl lg:mx-8 lg:my-12 lg:text-4xl"
+>
 	What I'm working on...
 </p>
 

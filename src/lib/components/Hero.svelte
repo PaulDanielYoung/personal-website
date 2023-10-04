@@ -55,7 +55,7 @@
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
-	<div class="h-full w-full overflow-hidden border-4 border-red-600">
+	<div class="h-full w-11/12 overflow-hidden border-4 border-red-600 lg:w-full">
 		<App />
 	</div>
 </div>
