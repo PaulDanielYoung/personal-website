@@ -35,6 +35,34 @@
 		// Do something with the ref if needed
 		console.log(ref);
 	}
+
+	// Update camera position based on screen size
+
+	function updateCameraPosition(ref) {
+		const { innerWidth: width } = window;
+		if (width < 640) {
+			// Extra-small screens
+			ref.position.set(22, 7.5, 0);
+		} else if (width >= 640 && width < 768) {
+			// Small screens
+			ref.position.set(17.5, 6, 0);
+		} else if (width >= 768 && width < 1024) {
+			// Medium screens
+			ref.position.set(15, 5, 0);
+		} else if (width >= 1024 && width < 1152) {
+			// Large screens part one
+			ref.position.set(35, 10, 0);
+		} else if (width >= 1152 && width < 1280) {
+			// Large screens part two
+			ref.position.set(27.5, 7.5, 0);
+		} else if (width >= 1280 && width < 1536) {
+			// Extra-large screens
+			ref.position.set(22.5, 6, 0);
+		} else {
+			// 2XL screens
+			ref.position.set(20, 5, 0);
+		}
+	}
 </script>
 
 <T.Mesh position.y={3} scale={2}>
@@ -54,7 +82,8 @@
 <T.PerspectiveCamera
 	makeDefault
 	on:create={({ ref }) => {
-		ref.position.set(20, 5, 0);
+		updateCameraPosition(ref);
+		window.addEventListener('resize', () => updateCameraPosition(ref));
 	}}
 >
 	<OrbitControls

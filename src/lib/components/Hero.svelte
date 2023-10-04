@@ -6,7 +6,7 @@
 	class="mx-2 my-4 flex h-[80vh] flex-col items-center lg:mx-8 lg:my-0 lg:flex-row lg:justify-between"
 >
 	<div
-		class="flex h-1/3 w-full flex-shrink-0 flex-col justify-center space-y-2 lg:h-full lg:max-w-lg lg:space-y-6 2xl:max-w-2xl"
+		class="flex h-1/3 w-full flex-shrink-0 flex-col justify-center space-y-2 border-4 border-blue-600 lg:h-full lg:max-w-lg lg:space-y-6 2xl:max-w-2xl"
 	>
 		<h1
 			class="text-center text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-left lg:text-7xl 2xl:text-8xl"
@@ -50,12 +50,12 @@
 			>.
 		</h2>
 		<h3
-			class=" break-normal text-center text-sm text-gray-600 sm:text-base lg:max-w-lg lg:text-left lg:text-lg xl:max-w-none"
+			class=" break-normal text-center text-sm text-gray-600 sm:text-base lg:max-w-lg lg:text-left lg:text-lg xl:max-w-none 2xl:text-xl"
 		>
 			I'm currently working for myself, exploring how to innovate Internal Audit.
 		</h3>
 	</div>
-	<div class="h-full w-full overflow-hidden">
+	<div class="h-full w-full overflow-hidden border-4 border-red-600">
 		<App />
 	</div>
 </div>
