@@ -36,10 +36,11 @@
 		console.log(ref);
 	}
 
-	let cameraRef; // Declare a variable to hold the camera ref
+	let cameraRef; // Define cameraRef here
+	let innerWidth; // Declare variables to hold window dimensions
+	let previousWidth = window.innerWidth; // Initialize previousWidth with the current window width
 
-	// Update camera position based on screen size
-
+	// Define updateCameraPosition here
 	function updateCameraPosition(ref) {
 		const { innerWidth: width } = window;
 		if (width < 640) {
@@ -65,9 +66,17 @@
 			ref.position.set(20, 5, 0);
 		}
 	}
+
+	function handleResize() {
+		if (innerWidth !== previousWidth) {
+			// Check if the window width has changed
+			updateCameraPosition(cameraRef); // If so, update the camera position
+			previousWidth = innerWidth; // Update previousWidth for the next resize event
+		}
+	}
 </script>
 
-<svelte:window on:resize={() => updateCameraPosition(cameraRef)} />
+<svelte:window bind:innerWidth on:resize={handleResize} />
 
 <T.Mesh position.y={3} scale={2}>
 	<MeshLineGeometry {points} />
