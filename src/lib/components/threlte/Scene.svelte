@@ -82,8 +82,7 @@
 <T.PerspectiveCamera
 	makeDefault
 	on:create={({ ref }) => {
-		updateCameraPosition(ref);
-		window.addEventListener('resize', () => updateCameraPosition(ref));
+		ref.position.set(24.5, 7.5, 0);
 	}}
 >
 	<OrbitControls
