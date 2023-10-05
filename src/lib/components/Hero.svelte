@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="mx-2 my-4 flex h-[80vh] flex-col items-center lg:mx-8 lg:my-0 lg:flex-row lg:justify-between"
+	class="mx-2 my-4 flex h-[60vh] flex-col items-center lg:mx-8 lg:my-0 lg:h-[80vh] lg:flex-row lg:justify-between"
 >
 	<div
 		class="flex h-1/3 w-full flex-shrink-0 flex-col justify-center space-y-2 lg:h-full lg:max-w-lg lg:space-y-6 2xl:max-w-2xl"

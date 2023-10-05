@@ -18,16 +18,34 @@
 	let width = 0.5;
 	let dashOffset = 0;
 	let color = new Color();
-	const orange = new Color('#fe3d00');
-	const purple = new Color('#9800fe');
+	// Define your colors
+	const color1 = new Color('#DB2777');
+	const color2 = new Color('#9333EA');
+	const color3 = new Color('#2563EB');
 
 	useFrame((state, delta) => {
-		// every frame we:
-		// increase the dash offset
+		// Increase the dash offset
 		dashOffset += delta / 2;
-		// transition between two colors
-		color.lerpColors(orange, purple, Math.sin(dashOffset * 2) / 2 + 0.5);
-		// shrink and grow the line width
+
+		// Determine the phase of the cycle (0 to 1 to 0 to 1)
+		const phase = (Math.sin(dashOffset) / 2 + 0.5) * 3; // now cycles from 0 to 3
+
+		let t;
+		if (phase < 1) {
+			// First segment: lerp between color1 and color2
+			t = phase; // normalize t to [0, 1]
+			color.lerpColors(color1, color2, t);
+		} else if (phase < 2) {
+			// Second segment: lerp between color2 and color3
+			t = phase - 1; // normalize t to [0, 1]
+			color.lerpColors(color2, color3, t);
+		} else {
+			// Third segment: lerp between color3 and color1
+			t = phase - 2; // normalize t to [0, 1]
+			color.lerpColors(color3, color1, t);
+		}
+
+		// Shrink and grow the line width
 		width = Math.sin(dashOffset * 2) / 5 + 0.3;
 	});
 
@@ -36,22 +54,22 @@
 		console.log(ref);
 	}
 
-	let cameraRef; // Define cameraRef here
-	let innerWidth; // Declare variables to hold window dimensions
-	let previousWidth = window.innerWidth; // Initialize previousWidth with the current window width
+	let cameraRef;
+	let innerWidth;
+	let previousWidth = window.innerWidth;
 
 	// Define updateCameraPosition here
 	function updateCameraPosition(ref) {
 		const { innerWidth: width } = window;
 		if (width < 640) {
 			// Extra-small screens
-			ref.position.set(24.5, 7.5, 0);
+			ref.position.set(18.5, 6, 0);
 		} else if (width >= 640 && width < 768) {
 			// Small screens
-			ref.position.set(19, 6, 0);
+			ref.position.set(15, 5, 0);
 		} else if (width >= 768 && width < 1024) {
 			// Medium screens
-			ref.position.set(16.5, 5, 0);
+			ref.position.set(14, 5, 0);
 		} else if (width >= 1024 && width < 1152) {
 			// Large screens part one
 			ref.position.set(35, 10, 0);
