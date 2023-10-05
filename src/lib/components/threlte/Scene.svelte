@@ -36,6 +36,8 @@
 		console.log(ref);
 	}
 
+	let cameraRef; // Declare a variable to hold the camera ref
+
 	// Update camera position based on screen size
 
 	function updateCameraPosition(ref) {
@@ -65,6 +67,8 @@
 	}
 </script>
 
+<svelte:window on:resize={() => updateCameraPosition(cameraRef)} />
+
 <T.Mesh position.y={3} scale={2}>
 	<MeshLineGeometry {points} />
 
@@ -82,7 +86,8 @@
 <T.PerspectiveCamera
 	makeDefault
 	on:create={({ ref }) => {
-		ref.position.set(24.5, 7.5, 0);
+		cameraRef = ref; // Store the camera ref
+		updateCameraPosition(ref);
 	}}
 >
 	<OrbitControls
