@@ -20,6 +20,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Paul Young</title>
+</svelte:head>
+
 <Hero />
 
 <p
