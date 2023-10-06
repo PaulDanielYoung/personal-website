@@ -10,6 +10,8 @@ imageAlt: 'Svelte Logo'
 published: true
 ---
 
+![Stable Diffusion - Ikea Computer Instructions](/How-I-created-my-own-personal-website-from-scratch/Ikea-coding.png)
+
 ## Table of Contents
 
 ## Introduction
