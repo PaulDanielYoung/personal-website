@@ -63,13 +63,13 @@
 		const { innerWidth: width } = window;
 		if (width < 640) {
 			// Extra-small screens
-			ref.position.set(18.5, 6, 0);
+			ref.position.set(16.5, 6, 0);
 		} else if (width >= 640 && width < 768) {
 			// Small screens
-			ref.position.set(15, 5, 0);
+			ref.position.set(14, 5, 0);
 		} else if (width >= 768 && width < 1024) {
 			// Medium screens
-			ref.position.set(14, 5, 0);
+			ref.position.set(13.6, 5, 0);
 		} else if (width >= 1024 && width < 1152) {
 			// Large screens part one
 			ref.position.set(35, 10, 0);
