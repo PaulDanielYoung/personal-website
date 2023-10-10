@@ -10,6 +10,10 @@ imageAlt: 'Test'
 published: true
 ---
 
+<script lang="ts">
+  import PieChartSimple from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartSimple.svelte';
+</script>
+
 ## Table of Contents
 
 ## Introduction
@@ -24,11 +28,17 @@ William Playfair's work was driven by the idea of creating visual representation
 
 ![Statistical-Breviary](/What's-the-deal-with-pie-charts/Statistical-Breviary.png)
 
-Playfair’s introduction of pie charts was groundbreaking as it provided a new way of representing data in a proportionate and visually appealing manner. The simplicity and clarity of pie charts, as envisioned by Playfair, made them a popular choice for depicting categorical data, and their popularity has endured through the centuries.
+Playfair’s introduction of pie charts was groundbreaking as it provided a new way of representing data in a proportionate and visually appealing manner. The simplicity and clarity of pie charts made them a popular choice for depicting categorical data, and their popularity has endured through the centuries.
 
 ## When to Use Pie Charts
 
-Pie charts are well-suited for scenarios that require the portrayal of percentage or proportional data, where each slice contributes to a total sum. They excel in situations where the emphasis is on comparing the parts to the whole, such as market share, election results, or budget allocations.
+Pie charts are well-suited for scenarios that require the portrayal of percentage or proportional data, where each slice contributes to a total sum. They excel in situations where the emphasis is on comparing the parts to the whole, such as market share, election results, or budget allocations. Specifically, pie charts excel at:
+
+_Simple Data Structures_:
+
+- Pie charts work best when the number of categories is limited. Typically, having fewer categories (around 2 to 5) helps in maintaining clarity and effectiveness in communication.
+
+<PieChartSimple />
 
 ## The Pros
 
