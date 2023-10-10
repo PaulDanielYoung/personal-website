@@ -1,6 +1,7 @@
 export type Categories =
 	| 'Internal Audit'
 	| 'Data Analytics'
+	| 'Data Visualization'
 	| 'Web Development'
 	| 'SvelteKit'
 	| 'Svelte';
