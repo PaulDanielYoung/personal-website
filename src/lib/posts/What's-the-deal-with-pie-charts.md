@@ -40,6 +40,14 @@ _Simple Data Structures_:
 
 <PieChartSimple />
 
+_Comparative Analysis_:
+
+- When the goal is to compare the proportion of categories to a whole, pie charts can be quite effective. They visually represent the share each category holds, making it easier for the audience to grasp the relative proportions.
+
+_Highlighting Individual Categories_:
+
+- Pie charts allow for the emphasis on individual or specific categories by using distinct colors or by detaching slices from the main chart. This helps in drawing attention to certain segments of data that may hold more significance or require special mention.
+
 ## The Pros
 
 The primary advantages of pie charts include their simplicity and visual clarity. They offer a clear distinction between categories, and their color-coded slices facilitate easy comprehension at a glance, making them a favorable choice for straightforward data representation.
