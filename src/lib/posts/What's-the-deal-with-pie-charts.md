@@ -12,6 +12,7 @@ published: true
 
 <script lang="ts">
   import PieChartSimple from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartSimple.svelte';
+  import PieChartMarketShares from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartMarketShares.svelte';
 </script>
 
 ## Table of Contents
@@ -50,19 +51,20 @@ _Highlighting Individual Categories_:
 
 ## The Pros
 
-The primary advantages of pie charts include their simplicity and visual clarity. They offer a clear distinction between categories, and their color-coded slices facilitate easy comprehension at a glance, making them a favorable choice for straightforward data representation.
+The primary advantages of pie charts include their simplicity and visual clarity. They offer a clear distinction between categories, and their color-coded slices facilitate easy comprehension at a glance, making them a favorable choice for straightforward data representation. One of their strongest traits, is the ability to highlight a part-to-whole relationship, which allows instant gauging of the share of each category.
+
+Moreover, pie charts shine when presenting data with a limited number of categories. They eliminate unnecessary clutter and present the information in a concise manner, ensuring the data's message remains the focal point.
 
 ## The Potential Pitfalls
 
 Despite their advantages, pie charts possess certain limitations:
 
-- **Precision**: Determining minor differences in slice sizes can be challenging, especially with an increased number of categories.
+- **Precision**: Determining minor differences in slice sizes can be challenging, especially with an increased number of categories. For example, consider a pie chart showing competing brands in a specific industry. If the market shares are slight, a viewer will have a hard time discerning the differences and gathering useful information aside from the market is evenly distributed.
+
+<PieChartMarketShares />
+
 - **Comparison**: Comparing individual sections either within a single pie chart or across multiple pie charts can be difficult.
 - **Data Capacity**: Pie charts can become cluttered or unreadable with too many categories, limiting their utility for complex data sets.
-
-## Examples and Comparisons
-
-Example of good and bad pie charts will go here.
 
 ## Tips for Effective Pie Chart Visualization
 
