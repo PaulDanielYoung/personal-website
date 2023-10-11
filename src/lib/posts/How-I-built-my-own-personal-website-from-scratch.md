@@ -1,7 +1,7 @@
 ---
 title: How I built my own personal website from scratch
 description: See how I learned about modern web development and applied those skills in creating my own personal website. Transitioning from a background in Python and SQL, I delved into the realms of HTML, CSS, JavaScript, and Svelte, among others. Through the ups and downs of creating a personal website, I've compiled a narrative rich with valuable resources, tech-stack choices, and insights that would be invaluable to anyone embarking on a similar journey into the web development sphere.
-date: '2023-10-16'
+date: '2023-10-01'
 readingLength: '10 min read'
 categories:
   - Web Development

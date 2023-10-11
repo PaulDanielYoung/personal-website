@@ -1,7 +1,7 @@
 ---
-title: What's the deal with pie charts?
-description: Pie charts have been around since the 19th century and is arguably the most recognizable chart when it comes to data visualization. While there are some scenarios where using this visualization shines, there are also common pitfalls which data analysts commonly fall into. In this post, I explore these visualizations and how we can apply them correctly.
-date: '2023-08-18'
+title: Cutting the Perfect Slice - Best Practices for Pie Chart Visualization
+description: Pie charts have been around since the 19th century and is arguably the most recognizable chart when it comes to data visualization. While there are some scenarios where using this visualization shines, there are also common pitfalls which data analysts commonly fall into. In this post, I explore these visualizations and how we can apply them correctly so that our audience has a clear picture of what we are trying to show.
+date: '2023-10-11'
 readingLength: '15 min read'
 categories:
   - Data Visualization
@@ -13,6 +13,8 @@ published: true
 <script lang="ts">
   import PieChartSimple from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartSimple.svelte';
   import PieChartMarketShares from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartMarketShares.svelte';
+  import PieChartQuarterlyRevenue from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartQuarterlyRevenue.svelte';
+  import PieChartLanguages from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartLanguages.svelte';
 </script>
 
 ## Table of Contents
@@ -63,8 +65,13 @@ Despite their advantages, pie charts possess certain limitations:
 
 <PieChartMarketShares />
 
-- **Comparison**: Comparing individual sections either within a single pie chart or across multiple pie charts can be difficult.
-- **Data Capacity**: Pie charts can become cluttered or unreadable with too many categories, limiting their utility for complex data sets.
+- **Comparison**: Comparing individual sections either within a single pie chart or across multiple pie charts can be difficult. For example, consider two pie charts showcasing the quarterly revenue distribution of a company over two consecutive years. The viewer might struggle to determine whether the revenue for a specific quarter was higher or lower in the second year just by looking at the slices.
+
+<PieChartQuarterlyRevenue />
+
+- **Data Capacity**: Pie charts can become cluttered or unreadable with too many categories, limiting their utility for complex data sets. For example, if you were to create a pie chart that represents a breakdown of the most spoken languages in the world (condensed to the top 20), it would become too cluttered. The numerous small slices for languages with fewer speakers would be hard to differentiate, and labels might overlap, making the chart unreadable.
+
+<PieChartLanguages />
 
 ## Tips for Effective Pie Chart Visualization
 
@@ -74,10 +81,8 @@ To enhance the effectiveness of pie charts, consider the following tips:
 - **Avoid 3D**: 3D pie charts can distort perception and misrepresent data.
 - **Clear Labeling**: Ensure each slice is clearly labeled to facilitate understanding.
 
-## Tools for Creating Pie Charts
-
-Various tools and libraries, such as Tableau or D3.js, are available for creating pie charts. These tools provide a range of features that can aid in crafting visually appealing and informative pie charts.
-
 ## Conclusion
 
-Pie charts can serve as a valuable tool for data visualization when used appropriately. Understanding when and how to use them, along with being aware of their limitations, is crucial for effective data communication. As you delve deeper into the realm of data visualization, selecting the right chart for your data will play a pivotal role in ensuring your audience can accurately interpret the information being presented.
+Pie charts can serve as a valuable tool for data visualization when used appropriately. Understanding when and how to use them, along with being aware of their limitations, is crucial for effective data communication. Remember that your choice of chart, whether it be a pie, bar, or line, can make or break your narrative. Your primary aim should always be clarity and precision, ensuring your audience walks away with a clear understanding of the data insights you aim to share.
+
+If you found this blog post helpful, consider sharing it with a colleague or friend. If you have any questions, thoughts, or comments please don't hesitate to reach out!
