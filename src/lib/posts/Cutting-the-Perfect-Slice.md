@@ -11,10 +11,10 @@ published: true
 ---
 
 <script lang="ts">
-  import PieChartSimple from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartSimple.svelte';
-  import PieChartMarketShares from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartMarketShares.svelte';
-  import PieChartQuarterlyRevenue from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartQuarterlyRevenue.svelte';
-  import PieChartLanguages from '$lib/components/blog/What\'s-the-deal-with-pie-charts/PieChartLanguages.svelte';
+  import PieChartSimple from '$lib/components/blog/Cutting-the-Perfect-Slice/PieChartSimple.svelte';
+  import PieChartMarketShares from '$lib/components/blog/Cutting-the-Perfect-Slice/PieChartMarketShares.svelte';
+  import PieChartQuarterlyRevenue from '$lib/components/blog/Cutting-the-Perfect-Slice/PieChartQuarterlyRevenue.svelte';
+  import PieChartLanguages from '$lib/components/blog/Cutting-the-Perfect-Slice/PieChartLanguages.svelte';
 </script>
 
 ## Table of Contents
