@@ -27,11 +27,11 @@ In the domain of data visualization, pie charts have established themselves as a
 
 The invention of pie charts dates back to the early 19th century, credited to William Playfair, a Scottish engineer and political economist. Playfair was not just the inventor of pie charts, but a pioneering figure in the field of statistical graphics. His innovative mind led to the development of various types of graphical representation of data, including the line graph and bar chart.
 
-William Playfair's work was driven by the idea of creating visual representations that could help in simplifying complex quantitative information for a broader audience. He believed in the power of visual aids in making data more accessible and understandable to the general populace. His seminal work, "The Commercial and Political Atlas," published in 1786, showcased his innovative approach to data visualization, featuring time-series graphs. However, it was in his later work, "Statistical Breviary," published in 1801, where he introduced the pie chart, along with the circle chart and bar chart, setting a strong foundation for the field of data visualization.
+William Playfair's work was driven by the idea of creating visual representations that could help in simplifying complex quantitative information for a broader audience. His goal was to make complex data easily digestible for a wide audience. His 1786 work, "The Commercial and Political Atlas," laid the groundwork in data visualization with its use of time-series graphs. However, it was in his 1801 publication, "Statistical Breviary," that he first introduced the pie chart, along with other innovative graphical formats.
 
-![Statistical-Breviary](/What's-the-deal-with-pie-charts/Statistical-Breviary.png)
+![Statistical-Breviary](/Cutting-the-Perfect-Slice/Statistical-Breviary.png)
 
-Playfair’s introduction of pie charts was groundbreaking as it provided a new way of representing data in a proportionate and visually appealing manner. The simplicity and clarity of pie charts made them a popular choice for depicting categorical data, and their popularity has endured through the centuries.
+Playfair’s pie charts revolutionized the way data was presented, offering a visually pleasing and proportionate method for displaying categorical data. Their simplicity and effectiveness have ensured their continued popularity.
 
 ## When to Use Pie Charts
 

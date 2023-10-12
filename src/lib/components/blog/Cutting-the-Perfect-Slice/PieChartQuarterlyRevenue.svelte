@@ -90,7 +90,7 @@
 
 <svelte:window on:resize={setDimensions} />
 
-<div class="mt-6 flex flex-row justify-center space-x-16 sm:space-x-28 md:space-x-36">
+<div class="mt-6 flex flex-row justify-center space-x-10 sm:space-x-28 md:space-x-36">
 	<div class="flex flex-col items-center">
 		<div id="chartYear1"></div>
 		<p class="mt-2">Year 1</p>

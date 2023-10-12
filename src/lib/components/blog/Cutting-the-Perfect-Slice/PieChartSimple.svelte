@@ -53,7 +53,7 @@
 
 <svelte:window on:resize={setDimensions} />
 
-<div class="mb-6 flex flex-row justify-center space-x-16 sm:space-x-28 md:space-x-36">
+<div class="mb-6 flex flex-row justify-center space-x-10 sm:space-x-28 md:space-x-36">
 	<div>
 		<p class="text-center font-bold">Good</p>
 		<div id="chart-good"></div>
