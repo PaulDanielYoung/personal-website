@@ -46,9 +46,15 @@
 </div>
 
 <p
-	class="mx-2 my-8 text-center text-2xl font-bold tracking-tight sm:text-3xl lg:mx-8 lg:my-12 lg:text-4xl"
+	class="mx-2 mb-2 mt-8 text-center text-2xl font-bold tracking-tight sm:text-3xl lg:mx-8 lg:mb-4 lg:mt-12 lg:text-4xl"
 >
 	What I'm working on...
+</p>
+
+<p
+	class="mx-2 mb-8 text-center text-lg font-bold tracking-tight text-indigo-600 sm:text-xl lg:mx-8 lg:mb-12 lg:text-2xl"
+>
+	More projects coming soon!
 </p>
 
 <Projects />
