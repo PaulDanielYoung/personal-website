@@ -2,11 +2,11 @@
 title: Cutting the Perfect Slice - Best Practices for Pie Chart Visualization
 description: Pie charts have been around since the 19th century and is arguably the most recognizable chart when it comes to data visualization. While there are some scenarios where using this visualization shines, there are also common pitfalls which data analysts commonly fall into. In this post, I explore these visualizations and how we can apply them correctly so that our audience has a clear picture of what we are trying to show.
 date: '2023-10-11'
-readingLength: '15 min read'
+readingLength: '10 min read'
 categories:
   - Data Visualization
-imageSrc: '/test.png'
-imageAlt: 'Test'
+imageSrc: '/Cutting-the-Perfect-Slice/Pie-Chart.png'
+imageAlt: 'Pie Chart Example'
 published: true
 ---
 

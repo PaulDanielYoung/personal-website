@@ -2,7 +2,7 @@
 title: How I Built My Personal Website
 description: See how I learned about modern web development and applied those skills in creating my own personal website. Transitioning from a background in Python and SQL, I jumped into HTML, CSS, JavaScript, and Svelte, among others. I've compiled a narrative with resources used, tech-stack choices, and insights that would be useful to anyone embarking on a similar journey into the web development sphere.
 date: '2023-10-01'
-readingLength: '10 min read'
+readingLength: '15 min read'
 categories:
   - Web Development
 imageSrc: '/favicon.png'
