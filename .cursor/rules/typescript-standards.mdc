@@ -1,0 +1,10 @@
+---
+description: TypeScript coding conventions for consistent typing
+globs: '**/*.ts'
+alwaysApply: true
+---
+
+- Strictly use explicit types; avoid using implicit `any`.
+- Interfaces and type definitions related to auditing must clearly describe their purpose.
+- Type naming should use PascalCase, such as `AuditPlan`, `RiskAssessment`, and `Finding`.
+- Provide JSDoc-style comments for all exported types and interfaces.

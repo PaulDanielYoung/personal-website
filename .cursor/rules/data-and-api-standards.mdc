@@ -1,0 +1,9 @@
+---
+description: Standards for handling data and API integration
+globs: '**/*.{ts,json,svelte}'
+alwaysApply: true
+---
+
+- Always handle API errors gracefully with clear error messages displayed to users.
+- Validate data at API boundaries using TypeScript validation or schema libraries like Zod.
+- Clearly document API calls in comments, including method, endpoint, purpose, and expected response structure.
