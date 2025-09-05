@@ -5,5 +5,5 @@ alwaysApply: true
 ---
 
 - Only modify code directly relevant to the specific request.
-- Avoid changing unrelated functionality or refactoring unless explicitly instructed.
-- Never introduce placeholders like `// TODO` or `// ... rest of processing ...`; always provide fully working code.
+- Avoid changing unrelated functionality.
+- Never introduce placeholders like `// TODO`; always provide fully working code.

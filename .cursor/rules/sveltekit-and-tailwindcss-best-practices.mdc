@@ -6,15 +6,6 @@ alwaysApply: true
 
 - Organize the project directory logically, grouping related files and functionality.
 - Use clear and descriptive folder and file names that reflect their purpose and content.
-- Common directory conventions:
-  - `/src` – Application source code.
-    - `/components` – Reusable UI components.
-    - `/lib` – Utility functions and libraries.
-    - `/routes` – Routing logic and page-level components (for frontend projects).
-    - `/api` – API interfaces or integrations.
-  - `/tests` – Unit and integration tests.
-  - `/static` – Static assets (e.g., images, fonts, icons).
-  - `/scripts` – Utility scripts for tasks like builds or deployments.
 - Include a brief `README.md` in major directories to explain their purpose and contents.
 - Components must follow explicit naming conventions:
   - Use PascalCase for Svelte components (e.g., `Component.svelte`).
